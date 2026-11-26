@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript and the archived software release."
+title: "Machine Learning with Active Few-Shot Calibration Improves the Understanding and Prediction of Microplastic-Associated Disinfection Byproduct Formation"
+version: 0.1.0
+release-date: 2026-11-11
+authors:
+  - family-names: Ji
+    given-names: Meng
+  - family-names: Rahadujjaman
+    given-names: Md
+  - family-names: Wu
+    given-names: Siyuan
+  - family-names: Hua
+    given-names: Guanghui
+  - family-names: Ye
+    given-names: Tao

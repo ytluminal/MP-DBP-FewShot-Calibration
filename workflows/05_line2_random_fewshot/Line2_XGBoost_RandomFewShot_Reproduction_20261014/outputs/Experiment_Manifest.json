@@ -1,0 +1,72 @@
+{
+  "experiment": "Line2 Figure2b XGBoost Stages1-4; Grouped and Random-CV fold-trained test predictions",
+  "all_runs": 16000,
+  "random_replicates": 500,
+  "seed": 42,
+  "protocols": [
+    "Grouped",
+    "RandomCV"
+  ],
+  "budgets": [
+    0.025,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "test_rows": 249,
+  "references": [
+    7,
+    14,
+    16,
+    21,
+    22
+  ],
+  "n_cal_round": "ceil(fraction * N_ref) independently per target reference",
+  "random_sampling": "single numpy default_rng(42), for each replicate permutation of ref test rows in order 7,14,16,21,22; identical permutations reused across stage and training protocol; budget samples nested prefixes",
+  "calibration": "per-reference mean(y_true_cal - y_pred_cal) added to frozen zero-shot ln(1+C_DBP) Test predictions; calibration rows excluded from scoring",
+  "comparison": "paired same-remainder zero-shot and calibrated metrics for each replicate; pooled across remaining rows",
+  "quantiles": "numpy quantile linear interpolation; median and 5/25/75/95 percentiles",
+  "input_archives": {
+    "Stage1_Grouped": {
+      "filename": "AUDIT_FINAL_Stage1_Publication_grouped.npz",
+      "sha256": "d6e6006e9e44769543b6286dd8b5cc1515c0e533762d1efb12a887edfab8df31"
+    },
+    "Stage1_RandomCV": {
+      "filename": "AUDIT_FINAL_Stage1_Conventional_random.npz",
+      "sha256": "e9a3d77e39298b1655f3022ab9c4795ec81daa5698aba02a8865802ab17f224a"
+    },
+    "Stage2_Grouped": {
+      "filename": "AUDIT_FINAL_Stage2_Publication_grouped.npz",
+      "sha256": "9a5eb58561db3de32b0a7c9e9a329d3f845070cdbdf19d05ab152b6b15f41a25"
+    },
+    "Stage2_RandomCV": {
+      "filename": "AUDIT_FINAL_Stage2_Conventional_random.npz",
+      "sha256": "1fa375a4ffa94bc2ebb116e00de94d0e2b42ad56d499e1486982fd509bb7c493"
+    },
+    "Stage3_Grouped": {
+      "filename": "AUDIT_FINAL_Stage3_Publication_grouped.npz",
+      "sha256": "b743eb70b3a6b2d9ed3ce856725cd9dd2c4eda3cdb14b1e93ac3ee5b8777193b"
+    },
+    "Stage3_RandomCV": {
+      "filename": "AUDIT_FINAL_Stage3_Conventional_random.npz",
+      "sha256": "5780de23f3ddd36da9afbf3f7d33c077b1f7b954ceb7c68158e057ba5caab31f"
+    },
+    "Stage4_Grouped": {
+      "filename": "AUDIT_FINAL_Stage4_Publication_grouped.npz",
+      "sha256": "b02092e1b157f8d9599f19a89052f8fd231fa5922918280d5ac4e02810d3f855"
+    },
+    "Stage4_RandomCV": {
+      "filename": "AUDIT_FINAL_Stage4_Conventional_random.npz",
+      "sha256": "10f7e04db56f1185b6df09bc5436d2ec8017e60c6087174e61cce4b0128d34a7"
+    }
+  },
+  "output_files": {
+    "Random_Permutations_500x5.csv": "8dc6aaeeb57a52e49c8ef8baf36b901e069cf9dd415aad3e794353fbcffd5651",
+    "ZeroShot_Original_249.csv": "50072033cb29eaba7a71506b83a0ccc9ed3c827d50fa17ef8fad5ec66d981bcc",
+    "XGB_RandomFewShot_Replicates_16000.csv": "91e1eb5dca3c96acc7b0fef1e9f164175b02ae17e037db96be329e172ef657e6",
+    "XGB_RandomFewShot_PerPublication_Summary_160.csv": "007435f46c773cd38810fbe23733769a6af5f2c2a8ebd5120486376f6ae05bd5",
+    "XGB_RandomFewShot_Summary_32.csv": "5d507893c7d4b93952fefc50393bdc99aa5e0fc9eb6c3224e171fa7d2819bfdd",
+    "XGB_RandomFewShot_PerPublication_Replicates_80000.csv": "d7169493028a48d6dd49e90baad2b47b5f3695d2fe25dbb427d16c0bac61e257",
+    "Per_Publication_Budgets.csv": "6638f8d352453c51e20df8c37e8955fa4678f13dcebf3111bd8cf6ea722fac68"
+  }
+}

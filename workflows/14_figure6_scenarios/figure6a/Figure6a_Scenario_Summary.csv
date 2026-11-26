@@ -1,0 +1,4 @@
+species,scenario,baseline_training_row,baseline_ref_ID,DOC_mgL_C,MP_dose_gL,baseline_pH,baseline_bromide_mgL
+TCM,Medium precursor scenario,265,5,1.48,2.0,7.0,0.0
+DCAA,Medium precursor scenario,558,18,1.64084096602037,0.5,7.0,0.0
+DCAN,Ref. 23 median-like observed baseline,768,23,0.9,4.0,,0.0

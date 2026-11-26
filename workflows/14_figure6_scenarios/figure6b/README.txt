@@ -1,0 +1,1 @@
+Figure 6b: all four DBP curves restricted to pH 6–9. Original frozen models and baseline conditions unchanged. Run python plot_Figure6b_TWP.py. DCAN and NDMA are exploratory without matched pH gradients; NDMA observations only at pH 8.3.

@@ -1,0 +1,85 @@
+{
+  "experiment": "Line2 Figure2b LightGBM Stages1-4; Grouped and Random-CV fold-trained test predictions",
+  "all_runs": 16000,
+  "random_replicates": 500,
+  "seed": 42,
+  "protocols": [
+    "Grouped",
+    "RandomCV"
+  ],
+  "budgets": [
+    0.025,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "test_rows": 249,
+  "references": [
+    7,
+    14,
+    16,
+    21,
+    22
+  ],
+  "n_cal_round": "ceil(fraction * N_ref) independently per target reference",
+  "random_sampling": "single numpy default_rng(42), for each replicate permutation of ref test rows in order 7,14,16,21,22; identical permutations reused across stage and training protocol; budget samples nested prefixes",
+  "calibration": "per-reference mean(y_true_cal - y_pred_cal) added to frozen zero-shot ln(1+C_DBP) Test predictions; calibration rows excluded from scoring",
+  "comparison": "paired same-remainder zero-shot and calibrated metrics for each replicate; pooled across remaining rows",
+  "quantiles": "numpy quantile linear interpolation; median and 5/25/75/95 percentiles",
+  "input_archives": {
+    "Stage1_Grouped": {
+      "filename": "AUDIT_FINAL_Stage1_Publication_grouped.npz",
+      "sha256": "d6e6006e9e44769543b6286dd8b5cc1515c0e533762d1efb12a887edfab8df31"
+    },
+    "Stage1_RandomCV": {
+      "filename": "AUDIT_FINAL_Stage1_Conventional_random.npz",
+      "sha256": "e9a3d77e39298b1655f3022ab9c4795ec81daa5698aba02a8865802ab17f224a"
+    },
+    "Stage2_Grouped": {
+      "filename": "AUDIT_FINAL_Stage2_Publication_grouped.npz",
+      "sha256": "9a5eb58561db3de32b0a7c9e9a329d3f845070cdbdf19d05ab152b6b15f41a25"
+    },
+    "Stage2_RandomCV": {
+      "filename": "AUDIT_FINAL_Stage2_Conventional_random.npz",
+      "sha256": "1fa375a4ffa94bc2ebb116e00de94d0e2b42ad56d499e1486982fd509bb7c493"
+    },
+    "Stage3_Grouped": {
+      "filename": "AUDIT_FINAL_Stage3_Publication_grouped.npz",
+      "sha256": "b743eb70b3a6b2d9ed3ce856725cd9dd2c4eda3cdb14b1e93ac3ee5b8777193b"
+    },
+    "Stage3_RandomCV": {
+      "filename": "AUDIT_FINAL_Stage3_Conventional_random.npz",
+      "sha256": "5780de23f3ddd36da9afbf3f7d33c077b1f7b954ceb7c68158e057ba5caab31f"
+    },
+    "Stage4_Grouped": {
+      "filename": "AUDIT_FINAL_Stage4_Publication_grouped.npz",
+      "sha256": "b02092e1b157f8d9599f19a89052f8fd231fa5922918280d5ac4e02810d3f855"
+    },
+    "Stage4_RandomCV": {
+      "filename": "AUDIT_FINAL_Stage4_Conventional_random.npz",
+      "sha256": "10f7e04db56f1185b6df09bc5436d2ec8017e60c6087174e61cce4b0128d34a7"
+    }
+  },
+  "output_files": {
+    "Audit_Checks.json": "cab6c952f4389f48112741ee7cc14de03ad498b25db7b8da59da07832233f99f",
+    "LGBM_Grouped_Paired_R2_Gains.svg": "b84a104a406bc10a0f9c6caecffac705cc422f68f8e02ceea8ef3e4280c91145",
+    "LGBM_Grouped_Paired_R2_Gains_600dpi.png": "303c89e949b382a5f3e0e6a3770a2dee78a424a64e8b332391cf1aef62705a1d",
+    "LGBM_Line2_RandomFewShot_Results.xlsx": "7d02da43ae65048e98ffea516d6a6fc33455442fdbe79e4b3b2c68cca7522197",
+    "LGBM_RandomCV_Paired_R2_Gains.svg": "acafeb3109e39fbf37ef0736974eff67ab1aed836c0256d22105159c4d4c14d3",
+    "LGBM_RandomCV_Paired_R2_Gains_600dpi.png": "fb90531aa181897bae09459d2dad60b0a8d85c0602810381712c04ebeb923022",
+    "LGBM_RandomFewShot_PerPublication_Replicates_80000.csv": "8510cbff5ac80b971155c55710439ca990ba35644254d3efb99b900294edbe28",
+    "LGBM_RandomFewShot_PerPublication_Summary_160.csv": "73c726e130a74c7339bfb94279809c07a6149d200b6b1bf3a512e55e35e24477",
+    "LGBM_RandomFewShot_Replicates_16000.csv": "297819cfd1c02c65cf78f9646e4bff200687aa6c2d2c5a1c70bee57968cd4eac",
+    "LGBM_RandomFewShot_Summary_32.csv": "77e68888a71dbe32402aa7838d7e34bc3f6582a8ffec9f94e35da2def6a9b082",
+    "LGBM_Stage4_PerPublication_RMSE_Gains.svg": "ac47587ee9394a3e3c981bbff3196d2e1647dc28d8cf63168d732e27f39ec1b6",
+    "LGBM_Stage4_PerPublication_RMSE_Gains_600dpi.png": "cc32f1dcf0c5141e894ed9b650a63f16719cbcd0adc3c26956ed58c4d692e6fe",
+    "Per_Publication_Budgets.csv": "6638f8d352453c51e20df8c37e8955fa4678f13dcebf3111bd8cf6ea722fac68",
+    "Random_Permutations_500x5.csv": "8dc6aaeeb57a52e49c8ef8baf36b901e069cf9dd415aad3e794353fbcffd5651",
+    "ZeroShot_Original_249.csv": "bff73a1544a60f2e3f5236c11a11bf6c2f44c55f54d1cc75b775fc02a3a3dbc2"
+  },
+  "input_data": {
+    "Training_995_Locked.xlsx": "de1e28d1525c97d802e5b3dd261dd7409bea3bbeade02875d3ac36fe76947fb9",
+    "Test_249_Locked.xlsx": "75e5164aba4c974e54f4974dee86a65d37228e9194ada504f6133552c77fdfc8"
+  },
+  "cross_model_random_selection_sha256": "8dc6aaeeb57a52e49c8ef8baf36b901e069cf9dd415aad3e794353fbcffd5651"
+}

@@ -1,0 +1,35 @@
+{
+  "workflow": "Line 3 / Figure 2c / frozen configurations",
+  "CV_combinations": 40,
+  "Test_combinations": 40,
+  "metric_total": 240,
+  "matches_at_6_decimal_places": 80,
+  "max_absolute_metric_delta": 2.220446049250313e-16,
+  "max_absolute_row_prediction_delta": 4.440892098500626e-15,
+  "training_observations": 1026,
+  "external_test_observations": 218,
+  "models": [
+    "RF",
+    "XGBoost",
+    "LightGBM",
+    "Preprocessed CatBoost",
+    "Equal4"
+  ],
+  "stages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "validation_schemes": [
+    "Publication-grouped",
+    "Conventional random"
+  ],
+  "approach": "Fresh frozen-recipe re-fit using source JSON generated from checksum-matched original XLSX files; stage-4 locked subsets taken from archived SI. No new optimization or RFE search.",
+  "original_xlsx_SHA256": {
+    "YangRen_DLM_seed70_Training_1026rows(4).xlsx": "fe229802e7039bc7293d2fa123ecd65107b149a3e4654ec4ed47bb55bf1f7203",
+    "YangRen_DLM_seed70_Test_218rows(4).xlsx": "449ed9b71a64a61f749763788a235996ceb49105475078241394a6aa7a6202af",
+    "YangRen_DLM_seed70_Stage2_Training_55features(4).xlsx": "ac788a6ba55ce04745b0ef629ba57632965e1c1e5feb298abff1bfb262fca3e0",
+    "YangRen_DLM_seed70_Stage2_Test_55features(4).xlsx": "e2a4d3ad0b37db8c27f5a3ad19e82ed06ffe00f9595a86ebe9f7efc0a917cb86"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "configs_total": 80,
+  "configs_verified": 80,
+  "Max_abs_prediction_delta": 2.6645352591003757e-15,
+  "N_comparisons": 49760,
+  "RF_Equal4_configs": 32,
+  "other_base_configs": 48,
+  "input_SHA256": {
+    "input/SI_Conventional_RandomSplit_Line3_Stage1-4.docx": "8eff51eb08330018596bca2a68780820a277b11129079562e99726fc1ef384f4",
+    "input/run.py": "292021e089d88c4f070ce08328287e8b9608ee0dba33eb5718cfc8a051d26c4c",
+    "input/test22.json": "9cee144bf5cf8b92d78ff22a5b1af5e5ec5c2e25290112b16227b9f23cc73824",
+    "input/test55.json": "b7d051b484968fb17071c585dc2a1ad8c3586563d6bd5ff6f748f28478a13921",
+    "input/train22.json": "fb18988c8fe50f497020e4cd70b28c1e8dbb8664a17ae3dee5662a26067aad70",
+    "input/train55.json": "b97431b7e6a2be681919ee05c17d1674fa538e309ee05d94c304858fbc2e24ae"
+  },
+  "numpy_version": "2.3.5",
+  "python_version": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "sklearn_version": "1.8.0"
+}

@@ -1,0 +1,480 @@
+{
+  "created": "2026-10-27",
+  "note": "All saved models are newly fitted using frozen previously specified settings and original data; not original 2026-10-26 fitted objects; not full Optuna/RFE re-selection.",
+  "archived_fitted_models": 108,
+  "full_training_models": 18,
+  "five_fold_cv_models": 90,
+  "no_refit_during_validation": true,
+  "acceptance_abs_difference": 1e-08,
+  "failures": [],
+  "results": [
+    {
+      "stage": "S1",
+      "algorithm": "Elastic Net",
+      "n_features": 22,
+      "final_model": "S1_Elastic_Net_full_training.joblib",
+      "fold_models": [
+        "S1_Elastic_Net_cv_fold1.joblib",
+        "S1_Elastic_Net_cv_fold2.joblib",
+        "S1_Elastic_Net_cv_fold3.joblib",
+        "S1_Elastic_Net_cv_fold4.joblib",
+        "S1_Elastic_Net_cv_fold5.joblib"
+      ],
+      "cv": {
+        "r2": 0.6590577216319145,
+        "rmse": 0.8349615177679085,
+        "mae": 0.617783486465189
+      },
+      "test": {
+        "r2": 0.5991293864386704,
+        "rmse": 0.8724315094136834,
+        "mae": 0.6362823978577489
+      },
+      "max_cv_abs_deviation_from_20261026_npz": 0.0,
+      "max_test_abs_deviation_from_20261026_npz": 0.0,
+      "matched": true
+    },
+    {
+      "stage": "S1",
+      "algorithm": "SVR-RBF",
+      "n_features": 22,
+      "final_model": "S1_SVR-RBF_full_training.joblib",
+      "fold_models": [
+        "S1_SVR-RBF_cv_fold1.joblib",
+        "S1_SVR-RBF_cv_fold2.joblib",
+        "S1_SVR-RBF_cv_fold3.joblib",
+        "S1_SVR-RBF_cv_fold4.joblib",
+        "S1_SVR-RBF_cv_fold5.joblib"
+      ],
+      "cv": {
+        "r2": 0.8797972123647939,
+        "rmse": 0.4957734896703951,
+        "mae": 0.33375654267306437
+      },
+      "test": {
+        "r2": 0.8262972474345869,
+        "rmse": 0.5742917564890773,
+        "mae": 0.32441448289217567
+      },
+      "max_cv_abs_deviation_from_20261026_npz": 0.0,
+      "max_test_abs_deviation_from_20261026_npz": 0.0,
+      "matched": true
+    },
+    {
+      "stage": "S1",
+      "algorithm": "Random Forest",
+      "n_features": 22,
+      "final_model": "S1_Random_Forest_full_training.joblib",
+      "fold_models": [
+        "S1_Random_Forest_cv_fold1.joblib",
+        "S1_Random_Forest_cv_fold2.joblib",
+        "S1_Random_Forest_cv_fold3.joblib",
+        "S1_Random_Forest_cv_fold4.joblib",
+        "S1_Random_Forest_cv_fold5.joblib"
+      ],
+      "cv": {
+        "r2": 0.8698245180005447,
+        "rmse": 0.5159298169161387,
+        "mae": 0.34908004177185836
+      },
+      "test": {
+        "r2": 0.8528575327504466,
+        "rmse": 0.5285648137977029,
+        "mae": 0.33517655253287826
+      },
+      "max_cv_abs_deviation_from_20261026_npz": 2.6645352591003757e-15,
+      "max_test_abs_deviation_from_20261026_npz": 1.3322676295501878e-15,
+      "matched": true
+    },
+    {
+      "stage": "S1",
+      "algorithm": "XGBoost",
+      "n_features": 22,
+      "final_model": "S1_XGBoost_full_training.joblib",
+      "fold_models": [
+        "S1_XGBoost_cv_fold1.joblib",
+        "S1_XGBoost_cv_fold2.joblib",
+        "S1_XGBoost_cv_fold3.joblib",
+        "S1_XGBoost_cv_fold4.joblib",
+        "S1_XGBoost_cv_fold5.joblib"
+      ],
+      "cv": {
+        "r2": 0.8954378525481069,
+        "rmse": 0.4623951576880595,
+        "mae": 0.3156137698812906
+      },
+      "test": {
+        "r2": 0.8504942760076718,
+        "rmse": 0.5327925485614101,
+        "mae": 0.33350580752085207
+      },
+      "max_cv_abs_deviation_from_20261026_npz": 0.0,
+      "max_test_abs_deviation_from_20261026_npz": 0.0,
+      "matched": true
+    },
+    {
+      "stage": "S1",
+      "algorithm": "LightGBM",
+      "n_features": 22,
+      "final_model": "S1_LightGBM_full_training.joblib",
+      "fold_models": [
+        "S1_LightGBM_cv_fold1.joblib",
+        "S1_LightGBM_cv_fold2.joblib",
+        "S1_LightGBM_cv_fold3.joblib",
+        "S1_LightGBM_cv_fold4.joblib",
+        "S1_LightGBM_cv_fold5.joblib"
+      ],
+      "cv": {
+        "r2": 0.8767594503528494,
+        "rmse": 0.5019989903705249,
+        "mae": 0.35323486397760073
+      },
+      "test": {
+        "r2": 0.8527672709549144,
+        "rmse": 0.5287269080445333,
+        "mae": 0.3300603364571078
+      },
+      "max_cv_abs_deviation_from_20261026_npz": 0.0,
+      "max_test_abs_deviation_from_20261026_npz": 0.0,
+      "matched": true
+    },
+    {
+      "stage": "S1",
+      "algorithm": "CatBoost",
+      "n_features": 22,
+      "final_model": "S1_CatBoost_full_training.joblib",
+      "fold_models": [
+        "S1_CatBoost_cv_fold1.joblib",
+        "S1_CatBoost_cv_fold2.joblib",
+        "S1_CatBoost_cv_fold3.joblib",
+        "S1_CatBoost_cv_fold4.joblib",
+        "S1_CatBoost_cv_fold5.joblib"
+      ],
+      "cv": {
+        "r2": 0.8641114724851662,
+        "rmse": 0.5271296276871154,
+        "mae": 0.37740114459730084
+      },
+      "test": {
+        "r2": 0.856509639768396,
+        "rmse": 0.5219640533974002,
+        "mae": 0.3487613099364799
+      },
+      "max_cv_abs_deviation_from_20261026_npz": 0.0,
+      "max_test_abs_deviation_from_20261026_npz": 0.0,
+      "matched": true
+    },
+    {
+      "stage": "S2",
+      "algorithm": "Elastic Net",
+      "n_features": 55,
+      "final_model": "S2_Elastic_Net_full_training.joblib",
+      "fold_models": [
+        "S2_Elastic_Net_cv_fold1.joblib",
+        "S2_Elastic_Net_cv_fold2.joblib",
+        "S2_Elastic_Net_cv_fold3.joblib",
+        "S2_Elastic_Net_cv_fold4.joblib",
+        "S2_Elastic_Net_cv_fold5.joblib"
+      ],
+      "cv": {
+        "r2": 0.6601616691160797,
+        "rmse": 0.8336086479721844,
+        "mae": 0.6152201438812311
+      },
+      "test": {
+        "r2": 0.5999627877140086,
+        "rmse": 0.8715241545215306,
+        "mae": 0.6344959600493641
+      },
+      "max_cv_abs_deviation_from_20261026_npz": 0.0,
+      "max_test_abs_deviation_from_20261026_npz": 0.0,
+      "matched": true
+    },
+    {
+      "stage": "S2",
+      "algorithm": "SVR-RBF",
+      "n_features": 55,
+      "final_model": "S2_SVR-RBF_full_training.joblib",
+      "fold_models": [
+        "S2_SVR-RBF_cv_fold1.joblib",
+        "S2_SVR-RBF_cv_fold2.joblib",
+        "S2_SVR-RBF_cv_fold3.joblib",
+        "S2_SVR-RBF_cv_fold4.joblib",
+        "S2_SVR-RBF_cv_fold5.joblib"
+      ],
+      "cv": {
+        "r2": 0.8807190471709276,
+        "rmse": 0.49386878817607455,
+        "mae": 0.3219139737053582
+      },
+      "test": {
+        "r2": 0.8101717357183992,
+        "rmse": 0.6003571267927774,
+        "mae": 0.33152820778422537
+      },
+      "max_cv_abs_deviation_from_20261026_npz": 0.0,
+      "max_test_abs_deviation_from_20261026_npz": 0.0,
+      "matched": true
+    },
+    {
+      "stage": "S2",
+      "algorithm": "Random Forest",
+      "n_features": 55,
+      "final_model": "S2_Random_Forest_full_training.joblib",
+      "fold_models": [
+        "S2_Random_Forest_cv_fold1.joblib",
+        "S2_Random_Forest_cv_fold2.joblib",
+        "S2_Random_Forest_cv_fold3.joblib",
+        "S2_Random_Forest_cv_fold4.joblib",
+        "S2_Random_Forest_cv_fold5.joblib"
+      ],
+      "cv": {
+        "r2": 0.8808908080651039,
+        "rmse": 0.4935130821649868,
+        "mae": 0.3395499725228496
+      },
+      "test": {
+        "r2": 0.8553607708872866,
+        "rmse": 0.5240494642692491,
+        "mae": 0.32646486856105483
+      },
+      "max_cv_abs_deviation_from_20261026_npz": 3.552713678800501e-15,
+      "max_test_abs_deviation_from_20261026_npz": 1.7763568394002505e-15,
+      "matched": true
+    },
+    {
+      "stage": "S2",
+      "algorithm": "XGBoost",
+      "n_features": 55,
+      "final_model": "S2_XGBoost_full_training.joblib",
+      "fold_models": [
+        "S2_XGBoost_cv_fold1.joblib",
+        "S2_XGBoost_cv_fold2.joblib",
+        "S2_XGBoost_cv_fold3.joblib",
+        "S2_XGBoost_cv_fold4.joblib",
+        "S2_XGBoost_cv_fold5.joblib"
+      ],
+      "cv": {
+        "r2": 0.9079893684766281,
+        "rmse": 0.4337555414402029,
+        "mae": 0.29263089259070263
+      },
+      "test": {
+        "r2": 0.8661747108181526,
+        "rmse": 0.5040786777052177,
+        "mae": 0.29290329000500126
+      },
+      "max_cv_abs_deviation_from_20261026_npz": 0.0,
+      "max_test_abs_deviation_from_20261026_npz": 0.0,
+      "matched": true
+    },
+    {
+      "stage": "S2",
+      "algorithm": "LightGBM",
+      "n_features": 55,
+      "final_model": "S2_LightGBM_full_training.joblib",
+      "fold_models": [
+        "S2_LightGBM_cv_fold1.joblib",
+        "S2_LightGBM_cv_fold2.joblib",
+        "S2_LightGBM_cv_fold3.joblib",
+        "S2_LightGBM_cv_fold4.joblib",
+        "S2_LightGBM_cv_fold5.joblib"
+      ],
+      "cv": {
+        "r2": 0.9032498281488973,
+        "rmse": 0.44478681310611234,
+        "mae": 0.3033119083096826
+      },
+      "test": {
+        "r2": 0.8759706045123027,
+        "rmse": 0.48527905315511904,
+        "mae": 0.3010345820418955
+      },
+      "max_cv_abs_deviation_from_20261026_npz": 0.0,
+      "max_test_abs_deviation_from_20261026_npz": 0.0,
+      "matched": true
+    },
+    {
+      "stage": "S2",
+      "algorithm": "CatBoost",
+      "n_features": 55,
+      "final_model": "S2_CatBoost_full_training.joblib",
+      "fold_models": [
+        "S2_CatBoost_cv_fold1.joblib",
+        "S2_CatBoost_cv_fold2.joblib",
+        "S2_CatBoost_cv_fold3.joblib",
+        "S2_CatBoost_cv_fold4.joblib",
+        "S2_CatBoost_cv_fold5.joblib"
+      ],
+      "cv": {
+        "r2": 0.897244786635554,
+        "rmse": 0.4583824305264813,
+        "mae": 0.31993143740285257
+      },
+      "test": {
+        "r2": 0.8680076192366886,
+        "rmse": 0.5006147752153634,
+        "mae": 0.3088473572572779
+      },
+      "max_cv_abs_deviation_from_20261026_npz": 0.0,
+      "max_test_abs_deviation_from_20261026_npz": 0.0,
+      "matched": true
+    },
+    {
+      "stage": "S3",
+      "algorithm": "Elastic Net",
+      "n_features": 26,
+      "final_model": "S3_Elastic_Net_full_training.joblib",
+      "fold_models": [
+        "S3_Elastic_Net_cv_fold1.joblib",
+        "S3_Elastic_Net_cv_fold2.joblib",
+        "S3_Elastic_Net_cv_fold3.joblib",
+        "S3_Elastic_Net_cv_fold4.joblib",
+        "S3_Elastic_Net_cv_fold5.joblib"
+      ],
+      "cv": {
+        "r2": 0.6677804463847279,
+        "rmse": 0.8242114160195714,
+        "mae": 0.6102105870297225
+      },
+      "test": {
+        "r2": 0.5979399619704042,
+        "rmse": 0.8737248479056839,
+        "mae": 0.6376592503455167
+      },
+      "max_cv_abs_deviation_from_20261026_npz": 0.0,
+      "max_test_abs_deviation_from_20261026_npz": 0.0,
+      "matched": true
+    },
+    {
+      "stage": "S3",
+      "algorithm": "SVR-RBF",
+      "n_features": 55,
+      "final_model": "S3_SVR-RBF_full_training.joblib",
+      "fold_models": [
+        "S3_SVR-RBF_cv_fold1.joblib",
+        "S3_SVR-RBF_cv_fold2.joblib",
+        "S3_SVR-RBF_cv_fold3.joblib",
+        "S3_SVR-RBF_cv_fold4.joblib",
+        "S3_SVR-RBF_cv_fold5.joblib"
+      ],
+      "cv": {
+        "r2": 0.8807190471709276,
+        "rmse": 0.49386878817607455,
+        "mae": 0.3219139737053582
+      },
+      "test": {
+        "r2": 0.8101717357183992,
+        "rmse": 0.6003571267927774,
+        "mae": 0.33152820778422537
+      },
+      "max_cv_abs_deviation_from_20261026_npz": 0.0,
+      "max_test_abs_deviation_from_20261026_npz": 0.0,
+      "matched": true
+    },
+    {
+      "stage": "S3",
+      "algorithm": "Random Forest",
+      "n_features": 26,
+      "final_model": "S3_Random_Forest_full_training.joblib",
+      "fold_models": [
+        "S3_Random_Forest_cv_fold1.joblib",
+        "S3_Random_Forest_cv_fold2.joblib",
+        "S3_Random_Forest_cv_fold3.joblib",
+        "S3_Random_Forest_cv_fold4.joblib",
+        "S3_Random_Forest_cv_fold5.joblib"
+      ],
+      "cv": {
+        "r2": 0.8835810386540559,
+        "rmse": 0.4879079454692086,
+        "mae": 0.3342826468741201
+      },
+      "test": {
+        "r2": 0.8470537489041564,
+        "rmse": 0.5388881705972638,
+        "mae": 0.33521619718380385
+      },
+      "max_cv_abs_deviation_from_20261026_npz": 2.220446049250313e-15,
+      "max_test_abs_deviation_from_20261026_npz": 2.6645352591003757e-15,
+      "matched": true
+    },
+    {
+      "stage": "S3",
+      "algorithm": "XGBoost",
+      "n_features": 48,
+      "final_model": "S3_XGBoost_full_training.joblib",
+      "fold_models": [
+        "S3_XGBoost_cv_fold1.joblib",
+        "S3_XGBoost_cv_fold2.joblib",
+        "S3_XGBoost_cv_fold3.joblib",
+        "S3_XGBoost_cv_fold4.joblib",
+        "S3_XGBoost_cv_fold5.joblib"
+      ],
+      "cv": {
+        "r2": 0.9108440213359371,
+        "rmse": 0.4269738389033364,
+        "mae": 0.28922192852996714
+      },
+      "test": {
+        "r2": 0.8633927946221496,
+        "rmse": 0.5092910398853409,
+        "mae": 0.2966045555181108
+      },
+      "max_cv_abs_deviation_from_20261026_npz": 0.0,
+      "max_test_abs_deviation_from_20261026_npz": 0.0,
+      "matched": true
+    },
+    {
+      "stage": "S3",
+      "algorithm": "LightGBM",
+      "n_features": 50,
+      "final_model": "S3_LightGBM_full_training.joblib",
+      "fold_models": [
+        "S3_LightGBM_cv_fold1.joblib",
+        "S3_LightGBM_cv_fold2.joblib",
+        "S3_LightGBM_cv_fold3.joblib",
+        "S3_LightGBM_cv_fold4.joblib",
+        "S3_LightGBM_cv_fold5.joblib"
+      ],
+      "cv": {
+        "r2": 0.9048878323911346,
+        "rmse": 0.44100556526688434,
+        "mae": 0.3005049666911727
+      },
+      "test": {
+        "r2": 0.8869911494478385,
+        "rmse": 0.46321803604304307,
+        "mae": 0.28291103214226176
+      },
+      "max_cv_abs_deviation_from_20261026_npz": 0.0,
+      "max_test_abs_deviation_from_20261026_npz": 0.0,
+      "matched": true
+    },
+    {
+      "stage": "S3",
+      "algorithm": "CatBoost",
+      "n_features": 48,
+      "final_model": "S3_CatBoost_full_training.joblib",
+      "fold_models": [
+        "S3_CatBoost_cv_fold1.joblib",
+        "S3_CatBoost_cv_fold2.joblib",
+        "S3_CatBoost_cv_fold3.joblib",
+        "S3_CatBoost_cv_fold4.joblib",
+        "S3_CatBoost_cv_fold5.joblib"
+      ],
+      "cv": {
+        "r2": 0.9023266038056837,
+        "rmse": 0.4469039310321398,
+        "mae": 0.3154273891841411
+      },
+      "test": {
+        "r2": 0.8826151703963875,
+        "rmse": 0.472101324697579,
+        "mae": 0.3006378997534233
+      },
+      "max_cv_abs_deviation_from_20261026_npz": 0.0,
+      "max_test_abs_deviation_from_20261026_npz": 0.0,
+      "matched": true
+    }
+  ]
+}

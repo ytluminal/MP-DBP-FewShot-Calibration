@@ -1,0 +1,18 @@
+{
+  "AUDIT_FINAL_Line2_5BLAS.py": "4e7b74be3c91acf02411a03e12d70f790b315c87ea75ce8b5a2b619aabe3c699",
+  "test55.json": "616251e86b4e5777c41cf4595b968a9385a2d155d20116ed0f4ddf919f00a95b",
+  "rf_reproduction_from_si.py": "405dc3c5742231f2dd2af7075acfdde71f68db2d415ae4f64cb51c0617c79a5b",
+  "SHA256_MANIFEST.json": "f8ee541841672e5dc7cdb2c2fd50c7c836bb3d12855266472caf0844c54fb294",
+  "AUDIT_FINAL_All_Stages_Results.json": "9d6816f12dc927fc801571b3a1bf65dea33e6102b92ce7a8f6a879cad6b98352",
+  "Training(9).xlsx": "de1e28d1525c97d802e5b3dd261dd7409bea3bbeade02875d3ac36fe76947fb9",
+  "Test(9).xlsx": "75e5164aba4c974e54f4974dee86a65d37228e9194ada504f6133552c77fdfc8",
+  "train55.json": "c27547b7186bcb0cee8d5b428fa9c7157b05ca71191d82060fde3a8ca490b6d7",
+  "audit_stage1_original_parameter_selection.py": "eb12cf81c3771fb2b998ab118648fe8012635e6c9c117795da57b0b3576d5e8a",
+  "README.txt": "17379509a90e689ec261f591e59c8822e64c45a2e04169e4ff8b3ae3a3813f26",
+  "SI_Verified.docx": "eb0ca762d736866222c9440494d2f418a5b800bd1a2732b9d08868a34490c2d1",
+  "run.py": "eff8cb4e482d7e93ce2297f9c6cdbe9da4fe980b73463140735bfee0b5ac9d5a",
+  "audit_stage1_results.json": "1ba58c8dfb27d93d3ebe117045b6f68f3199c44595d6a8d4582f1a53e07a850b",
+  "AUDIT_FINAL_5BLAS_run.log": "59f7e8557bfc644b758745ffd68b20aa337ae735b6dec11f198790facab30a07",
+  "prepare_datasets.py": "f0980688abff7f96dc9c2c3d5344aaf47e468c350a39b50879eecc34e847b77a",
+  "RF_FromLatestSI_Audit.json": "3fdcd6cc8f8f25e5e30db4fce604f94b0faa55ab67142294a9f8a99f83fd4421"
+}

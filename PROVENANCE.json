@@ -1,0 +1,142 @@
+{
+  "package_date": "2026-11-11",
+  "sources": [
+    {
+      "workflow": "01_line1_figure2a",
+      "archive": "Figure2a_Line1_Complete_With_Trained_Models_20261027(6).zip",
+      "size_bytes": 179407980,
+      "sha256": "c0c298251e90a731c8977c3b0c06b40dae67ee9beed4a422524f184cbb7daf5f"
+    },
+    {
+      "workflow": "02_line2_model_development",
+      "archive": "Line2_Reproducibility_Code_Data_20261013(20261111-212706).zip",
+      "size_bytes": 513280,
+      "sha256": "0ecf69e95e1cfa82cd6ea1f6ee68057235a4f69d0916ef6cdd09e753072fef59"
+    },
+    {
+      "workflow": "03_line3_model_development",
+      "archive": "Line3_Figure2c_Full_Reproducibility_Complete_20261015(9).zip",
+      "size_bytes": 3529126,
+      "sha256": "cce2a504c6971194cfa71ae2247d824af4119a9c279a0d8da1db6af12fa77e6e"
+    },
+    {
+      "workflow": "04_line2_frozen_lightgbm",
+      "archive": "Line2_LightGBM_Reproduced_Models_20261027(4).zip",
+      "size_bytes": 9387314,
+      "sha256": "ab484c82cccdea4d96b87014ca4998514cc89e57c45d741a4922b1823c044242"
+    },
+    {
+      "workflow": "05_line2_random_fewshot",
+      "archive": "Line 2 random few shot.zip",
+      "size_bytes": 47060449,
+      "sha256": "43e34f7b3ce788cf1040e2190d348887b2f1f8e6aa1ea8b0c025be4e0f0c4596"
+    },
+    {
+      "workflow": "06_line2_active_fewshot",
+      "archive": "Line2_StageMatched_Active_Full_Reproducibility_20261016(9).zip",
+      "size_bytes": 57785860,
+      "sha256": "c92466d7f4dd3707cc21333c7d5443f57e76787b5aaecfca3e25cf7d80bd1427"
+    },
+    {
+      "workflow": "07_line3_random_fewshot",
+      "archive": "Line3_FiveModel_RandomFewShot_Reproduction_20261014(2).zip",
+      "size_bytes": 58314355,
+      "sha256": "dde469694457c6433266d08a1cbf9ba0f5cbc38fd8867894c5446a6a9f881deb"
+    },
+    {
+      "workflow": "08_line3_active_fewshot",
+      "archive": "Line3_StageMatched_Active_Full_Reproducibility_20261016(7).zip",
+      "size_bytes": 57989721,
+      "sha256": "5e2203e65c5f9b8e941d5004ef2c3f00762b8a7f847665b730df7aadcef63669"
+    },
+    {
+      "workflow": "09_figure4_line1_random",
+      "archive": "Figure4_Line1_LightGBM_RandomFewShot_Complete_Reproducibility(1).zip",
+      "size_bytes": 1650105,
+      "sha256": "d9b0a97b2bfdd23eaf040b34af00585146595615468d869159434a5d8432993e"
+    },
+    {
+      "workflow": "10_figure4_line1_active",
+      "archive": "Figure4_Line1_LightGBM_ActiveFewShot_Reproducibility(1).zip",
+      "size_bytes": 3174414,
+      "sha256": "7c6cf28cdc511b2a0f5f2d873acf818a173abbf0a483443135a2059a4787ca1e"
+    },
+    {
+      "workflow": "11_figure4_line2_random_active",
+      "archive": "Figure4_Line2_LightGBM_Random_Active_FewShot_Reproducibility(1).zip",
+      "size_bytes": 8182994,
+      "sha256": "c251024b2c4400b41863c3423b64a2bc9bd5c3bd4c591e664a73403d0dcea67f"
+    },
+    {
+      "workflow": "12_figure4_line3_random_active",
+      "archive": "Figure4_Line3_LightGBM_Random_Active_FewShot_Reproducibility(1).zip",
+      "size_bytes": 8198433,
+      "sha256": "b2be08c88d64679d85c743bc69764e8269ed4e34e818e2c9e71c9bfc71dcc2d9"
+    },
+    {
+      "workflow": "13_figure5_shap",
+      "archive": "Figure 5a-c Master_SHAP_Line2_S3_Complete(2).zip",
+      "size_bytes": 10000039,
+      "sha256": "257cef6cb080a2230dc83233fcd56c20bc00699b1e9d5939058e55d245476ebd"
+    },
+    {
+      "workflow": "13_figure5_shap",
+      "archive": "Figure5d_Aligned_Plotting_Files(1).zip",
+      "size_bytes": 557022,
+      "sha256": "e140128de836af2c50c8c5cf476bc87a701c32e510dc5c4227b705e0211fc475"
+    },
+    {
+      "workflow": "13_figure5_shap",
+      "archive": "Figure5e_Final_Plotting_Files(1).zip",
+      "size_bytes": 1266163,
+      "sha256": "845a14f13b59aaa4a698a3f6c759d7546d408d58788f5dfa50f7f2d5e90d36b9"
+    },
+    {
+      "workflow": "14_figure6_scenarios",
+      "archive": "Figure6a_LegendUpdated_files(2).zip",
+      "size_bytes": 710089,
+      "sha256": "42137367d9c4bdc900483a5e1c3e9c9e7e4c9c648e0c811cca4ecdf6e88696a2"
+    },
+    {
+      "workflow": "14_figure6_scenarios",
+      "archive": "Figure6b_TWP_pH6_9_Plotting_Files(3).zip",
+      "size_bytes": 2200125,
+      "sha256": "be3226f0ae726b8ee3998182cbebacd75c4346ac6a7210436328d79f68ade151"
+    },
+    {
+      "workflow": "14_figure6_scenarios",
+      "archive": "Figure6c_Final_Plotting_Files(2).zip",
+      "size_bytes": 979685,
+      "sha256": "bfa84cd06b4847fc6667facee98216acec3a7317f998a86bd0c5102531c9cb65"
+    },
+    {
+      "workflow": "14_figure6_scenarios",
+      "archive": "Figure6d_Ref29_5pct_Revised_Plotting_Files(1).zip",
+      "size_bytes": 256866,
+      "sha256": "9ac1e31b765421188765aa6cf74283f21677783d0839ee5866d27fd24a9a04c0"
+    },
+    {
+      "workflow": "14_figure6_scenarios",
+      "archive": "Figure4_Line2_LightGBM_Random_Active_FewShot_Reproducibility(2).zip",
+      "size_bytes": 8182994,
+      "sha256": "c251024b2c4400b41863c3423b64a2bc9bd5c3bd4c591e664a73403d0dcea67f"
+    }
+  ],
+  "original_excel": {
+    "name": "MP-DBPs SI.xlsx",
+    "sha256": "4f9bdb35758d7a7bd0a2e7e2de07bf2b2a80daaf23d1fb5e0fba12a407a1fc10"
+  },
+  "notes": "Original source archives preserved separately by the author; curated GitHub ZIP excludes large replication tables, published PDFs and manuscript drafts",
+  "figure56_update": {
+    "package_date": "2026-11-26",
+    "archive_name": "MP_DBP_Figures5_6_Update_20261126.zip",
+    "sha256": "39c55e6fe026298b62825fea2e563883aaddbc0f995bc4c222fff20d779d3bf0",
+    "final_workbook": {
+      "path": "data/MP-DBPs_data_SM.xlsx",
+      "size_bytes": 350458,
+      "sha256": "47b031868487babffbfac3719eda0651a039756aa9d27b1ba0eaad54ecf15fe7",
+      "original": "MP-DBPs data SM(1).xlsx"
+    },
+    "notes": "No model fitting, data reanalysis, or plot rerendering performed. Final submitted composite figures preserved byte-for-byte."
+  }
+}

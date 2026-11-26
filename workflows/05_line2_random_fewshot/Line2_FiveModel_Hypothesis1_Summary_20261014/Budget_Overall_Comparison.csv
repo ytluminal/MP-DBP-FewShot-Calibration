@@ -1,0 +1,9 @@
+Protocol,Budget_pct,N_model_stage,N_median_gain_positive,N_median_gain_negative,N_fraction_improvement_at_least_80pct,Median_of_20_config_median_Delta_R2,Median_of_20_config_improvement_fraction
+Grouped,2.5,20,16,4,12,0.2579860572373356,0.89
+Grouped,5,20,19,1,14,0.29948268891063834,0.979
+Grouped,10,20,20,0,18,0.3480854370049073,1.0
+Grouped,20,20,20,0,20,0.3781288644971358,1.0
+RandomCV,2.5,20,17,3,14,0.27369421050869214,0.893
+RandomCV,5,20,18,2,16,0.3214439290175386,0.983
+RandomCV,10,20,20,0,18,0.36553565733338333,1.0
+RandomCV,20,20,20,0,20,0.3978252809218089,1.0

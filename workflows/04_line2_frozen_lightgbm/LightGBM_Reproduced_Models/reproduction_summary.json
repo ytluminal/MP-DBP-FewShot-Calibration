@@ -1,0 +1,738 @@
+[
+  {
+    "Stage": 1,
+    "CV type": "Publication-grouped",
+    "features": 22,
+    "CV R2": 0.18367238470511849,
+    "CV RMSE": 1.164569577104693,
+    "CV MAE": 0.9301922226893651,
+    "Test R2": 0.5362656885059999,
+    "Test RMSE": 0.8245713281551728,
+    "Test MAE": 0.6663676023113596,
+    "fold_info": [
+      {
+        "fold": 1,
+        "n_train": 797,
+        "n_holdout": 198,
+        "CV_R2": 0.07653384703382826,
+        "setting": [
+          500,
+          15,
+          0.1
+        ],
+        "alpha": 0,
+        "model_file": "LightGBM_Line2_S1_grouped_F1.joblib",
+        "sha256": "bea6468ed364b23db26bfc1a5a4d9c869fa70ab3e48a18686a038220670bb97f"
+      },
+      {
+        "fold": 2,
+        "n_train": 797,
+        "n_holdout": 198,
+        "CV_R2": 0.16253110886948097,
+        "setting": [
+          500,
+          7,
+          0.03
+        ],
+        "alpha": 0,
+        "model_file": "LightGBM_Line2_S1_grouped_F2.joblib",
+        "sha256": "289586d0d0e2eedee5bb89e01839721209728879d4bb17e478ba409fa1e2bdb9"
+      },
+      {
+        "fold": 3,
+        "n_train": 796,
+        "n_holdout": 199,
+        "CV_R2": 0.42104243012839826,
+        "setting": [
+          500,
+          15,
+          0.03
+        ],
+        "alpha": 0,
+        "model_file": "LightGBM_Line2_S1_grouped_F3.joblib",
+        "sha256": "b8bfc7992d28a30698d35400e88373008ebe5077581a798e99a36e9ea1214197"
+      },
+      {
+        "fold": 4,
+        "n_train": 795,
+        "n_holdout": 200,
+        "CV_R2": 0.07041591603326036,
+        "setting": [
+          500,
+          7,
+          0.1
+        ],
+        "alpha": 0,
+        "model_file": "LightGBM_Line2_S1_grouped_F4.joblib",
+        "sha256": "896e619d566fd2c8542a3c107bff864278a704f86f872ae792c4cbef9cc00876"
+      },
+      {
+        "fold": 5,
+        "n_train": 795,
+        "n_holdout": 200,
+        "CV_R2": -0.8703765985000933,
+        "setting": [
+          200,
+          7,
+          0.03
+        ],
+        "alpha": 0,
+        "model_file": "LightGBM_Line2_S1_grouped_F5.joblib",
+        "sha256": "aebd0ef798e2d5b8325fadca069449d5c03e5b92d0030fd6ca180fd2640aa8d9"
+      }
+    ],
+    "reference_metric_differences": {
+      "CV R2": 0.0,
+      "CV RMSE": 0.0,
+      "CV MAE": 0.0,
+      "Test R2": 0.0,
+      "Test RMSE": 0.0,
+      "Test MAE": 0.0
+    },
+    "exact_to_8_decimal_places": true
+  },
+  {
+    "Stage": 1,
+    "CV type": "Conventional random",
+    "features": 22,
+    "CV R2": 0.7786175897667329,
+    "CV RMSE": 0.6064636173868976,
+    "CV MAE": 0.4137777591144916,
+    "Test R2": 0.5240634533708387,
+    "Test RMSE": 0.8353493555139835,
+    "Test MAE": 0.6871959944204272,
+    "fold_info": [
+      {
+        "fold": 1,
+        "n_train": 796,
+        "n_holdout": 199,
+        "CV_R2": 0.841159900730577,
+        "setting": [
+          500,
+          15,
+          0.1
+        ],
+        "alpha": 0,
+        "model_file": "LightGBM_Line2_S1_random_F1.joblib",
+        "sha256": "6c309dca975cc360cc3d17b49d6473b0ad5a03256834e18e341c81ea7c804542"
+      },
+      {
+        "fold": 2,
+        "n_train": 796,
+        "n_holdout": 199,
+        "CV_R2": 0.726134439505324,
+        "setting": [
+          500,
+          7,
+          0.03
+        ],
+        "alpha": 0,
+        "model_file": "LightGBM_Line2_S1_random_F2.joblib",
+        "sha256": "1c4478d7a5e5498008cb227871ca1e80b328bc8780a300fc6b9ee34c11919646"
+      },
+      {
+        "fold": 3,
+        "n_train": 796,
+        "n_holdout": 199,
+        "CV_R2": 0.8258985077803981,
+        "setting": [
+          500,
+          15,
+          0.03
+        ],
+        "alpha": 0,
+        "model_file": "LightGBM_Line2_S1_random_F3.joblib",
+        "sha256": "849482bed6d2eb029c596e6ae9ee941dad9f2dfd015043f3078c3943ff198c65"
+      },
+      {
+        "fold": 4,
+        "n_train": 796,
+        "n_holdout": 199,
+        "CV_R2": 0.8425974647341679,
+        "setting": [
+          500,
+          7,
+          0.1
+        ],
+        "alpha": 0,
+        "model_file": "LightGBM_Line2_S1_random_F4.joblib",
+        "sha256": "f9c594dcb3c6de281a8f41ce89a633e5784a5d68e41f6767b0b168c7606463bc"
+      },
+      {
+        "fold": 5,
+        "n_train": 796,
+        "n_holdout": 199,
+        "CV_R2": 0.6926056139018197,
+        "setting": [
+          200,
+          7,
+          0.03
+        ],
+        "alpha": 0,
+        "model_file": "LightGBM_Line2_S1_random_F5.joblib",
+        "sha256": "07f32f26d70ee5de43fe8ccc955f1176f4ff36d75ebf0d476303b294604f7c57"
+      }
+    ],
+    "reference_metric_differences": {
+      "CV R2": 0.0,
+      "CV RMSE": 0.0,
+      "CV MAE": 0.0,
+      "Test R2": 0.0,
+      "Test RMSE": 0.0,
+      "Test MAE": 0.0
+    },
+    "exact_to_8_decimal_places": true
+  },
+  {
+    "Stage": 2,
+    "CV type": "Publication-grouped",
+    "features": 55,
+    "CV R2": 0.2653769636053632,
+    "CV RMSE": 1.104753707707233,
+    "CV MAE": 0.8704181474603747,
+    "Test R2": 0.415548142776608,
+    "Test RMSE": 0.9256951447444585,
+    "Test MAE": 0.756675766841474,
+    "fold_info": [
+      {
+        "fold": 1,
+        "n_train": 797,
+        "n_holdout": 198,
+        "CV_R2": 0.07305292642536476,
+        "setting": [
+          500,
+          31,
+          0.1
+        ],
+        "alpha": 0,
+        "model_file": "LightGBM_Line2_S2_grouped_F1.joblib",
+        "sha256": "751dbe713bdc98d041cac35b6b150711f9c60b1a0e96682fb82bf36952b49277"
+      },
+      {
+        "fold": 2,
+        "n_train": 797,
+        "n_holdout": 198,
+        "CV_R2": 0.43872008170770216,
+        "setting": [
+          200,
+          31,
+          0.03
+        ],
+        "alpha": 0,
+        "model_file": "LightGBM_Line2_S2_grouped_F2.joblib",
+        "sha256": "576d489f1c5168cd7733fa35cd979c366b3076c9b21b334b5fc0a625de9070d9"
+      },
+      {
+        "fold": 3,
+        "n_train": 796,
+        "n_holdout": 199,
+        "CV_R2": 0.40018311040688337,
+        "setting": [
+          200,
+          15,
+          0.1
+        ],
+        "alpha": 0,
+        "model_file": "LightGBM_Line2_S2_grouped_F3.joblib",
+        "sha256": "103ba9c4e415f6cfecda7e6cc5494123ebae9992550cfa698fb25c98e11d97ae"
+      },
+      {
+        "fold": 4,
+        "n_train": 795,
+        "n_holdout": 200,
+        "CV_R2": 0.16522867805990415,
+        "setting": [
+          200,
+          7,
+          0.1
+        ],
+        "alpha": 0,
+        "model_file": "LightGBM_Line2_S2_grouped_F4.joblib",
+        "sha256": "5ac4eb26c113b6cf361563e89555e44562ae3d62debb7a2dc421d9287eadc8da"
+      },
+      {
+        "fold": 5,
+        "n_train": 795,
+        "n_holdout": 200,
+        "CV_R2": -0.800742866130278,
+        "setting": [
+          200,
+          15,
+          0.1
+        ],
+        "alpha": 0,
+        "model_file": "LightGBM_Line2_S2_grouped_F5.joblib",
+        "sha256": "50a8e600a9488c246ec30c95dfe2e3f4073c0f512c7558afed4d361a50fec315"
+      }
+    ],
+    "reference_metric_differences": {
+      "CV R2": 0.0,
+      "CV RMSE": 0.0,
+      "CV MAE": 0.0,
+      "Test R2": 0.0,
+      "Test RMSE": 0.0,
+      "Test MAE": 0.0
+    },
+    "exact_to_8_decimal_places": true
+  },
+  {
+    "Stage": 2,
+    "CV type": "Conventional random",
+    "features": 55,
+    "CV R2": 0.8504178885663056,
+    "CV RMSE": 0.498509025904425,
+    "CV MAE": 0.3162873044684641,
+    "Test R2": 0.25386239638910424,
+    "Test RMSE": 1.0459311041406705,
+    "Test MAE": 0.8533469162738928,
+    "fold_info": [
+      {
+        "fold": 1,
+        "n_train": 796,
+        "n_holdout": 199,
+        "CV_R2": 0.8413248286569006,
+        "setting": [
+          500,
+          31,
+          0.1
+        ],
+        "alpha": 0,
+        "model_file": "LightGBM_Line2_S2_random_F1.joblib",
+        "sha256": "3137833270d7f37905980627566b2ffa65e81e6db26f20c352c41a7b7aae638c"
+      },
+      {
+        "fold": 2,
+        "n_train": 796,
+        "n_holdout": 199,
+        "CV_R2": 0.8140048117129536,
+        "setting": [
+          200,
+          31,
+          0.03
+        ],
+        "alpha": 0,
+        "model_file": "LightGBM_Line2_S2_random_F2.joblib",
+        "sha256": "38bc2e73458f067f0620271d5d5f9181fd1acac1738c11c2bf2885960ef71273"
+      },
+      {
+        "fold": 3,
+        "n_train": 796,
+        "n_holdout": 199,
+        "CV_R2": 0.8843812331566239,
+        "setting": [
+          200,
+          15,
+          0.1
+        ],
+        "alpha": 0,
+        "model_file": "LightGBM_Line2_S2_random_F3.joblib",
+        "sha256": "55ed663efa7aac6cdf8db57dcd77ddee432880c74156fc1c6c37b2d3cce4ea1d"
+      },
+      {
+        "fold": 4,
+        "n_train": 796,
+        "n_holdout": 199,
+        "CV_R2": 0.8433375898924649,
+        "setting": [
+          200,
+          7,
+          0.1
+        ],
+        "alpha": 0,
+        "model_file": "LightGBM_Line2_S2_random_F4.joblib",
+        "sha256": "cd14704467676d6d1482f6aac4bb28e3fb9ac26753b5955d29588501f1262e9d"
+      },
+      {
+        "fold": 5,
+        "n_train": 796,
+        "n_holdout": 199,
+        "CV_R2": 0.8667032010292344,
+        "setting": [
+          200,
+          15,
+          0.1
+        ],
+        "alpha": 0,
+        "model_file": "LightGBM_Line2_S2_random_F5.joblib",
+        "sha256": "0feccf542493b2404a16337f88d6d73313c3650408792099b20ca125a23d5754"
+      }
+    ],
+    "reference_metric_differences": {
+      "CV R2": 0.0,
+      "CV RMSE": 0.0,
+      "CV MAE": 0.0,
+      "Test R2": 0.0,
+      "Test RMSE": 0.0,
+      "Test MAE": 0.0
+    },
+    "exact_to_8_decimal_places": true
+  },
+  {
+    "Stage": 3,
+    "CV type": "Publication-grouped",
+    "features": 55,
+    "CV R2": 0.3016710724623375,
+    "CV RMSE": 1.0771178241368453,
+    "CV MAE": 0.8285337947814707,
+    "Test R2": 0.5155930614650708,
+    "Test RMSE": 0.8427500597324851,
+    "Test MAE": 0.6864303305157577,
+    "fold_info": [
+      {
+        "fold": 1,
+        "n_train": 797,
+        "n_holdout": 198,
+        "CV_R2": 0.23543398542431182,
+        "setting": [
+          500,
+          31,
+          0.1
+        ],
+        "alpha": 0.25,
+        "model_file": "LightGBM_Line2_S3_grouped_F1.joblib",
+        "sha256": "5d5e4e6c72eab59e9c7f080ed56f53f4f85b8b353cf4cadab6fe11213581e63e"
+      },
+      {
+        "fold": 2,
+        "n_train": 797,
+        "n_holdout": 198,
+        "CV_R2": 0.4064621646489349,
+        "setting": [
+          200,
+          31,
+          0.03
+        ],
+        "alpha": 0.5,
+        "model_file": "LightGBM_Line2_S3_grouped_F2.joblib",
+        "sha256": "ef273763f044c05745f9bfcd2399deb3c739c741eca8b14c1fa410d7cdcb7bcf"
+      },
+      {
+        "fold": 3,
+        "n_train": 796,
+        "n_holdout": 199,
+        "CV_R2": 0.40018311040688337,
+        "setting": [
+          200,
+          15,
+          0.1
+        ],
+        "alpha": 0,
+        "model_file": "LightGBM_Line2_S3_grouped_F3.joblib",
+        "sha256": "1f63b7060e2249b0ea2bff820c5d506fd3a0628b8298457ab1525422ce0de9fc"
+      },
+      {
+        "fold": 4,
+        "n_train": 795,
+        "n_holdout": 200,
+        "CV_R2": 0.32567834491490055,
+        "setting": [
+          200,
+          7,
+          0.1
+        ],
+        "alpha": 1,
+        "model_file": "LightGBM_Line2_S3_grouped_F4.joblib",
+        "sha256": "6804514337e718e461119af27e59765658c7e1070bda78fd2af6228d9eab98de"
+      },
+      {
+        "fold": 5,
+        "n_train": 795,
+        "n_holdout": 200,
+        "CV_R2": -0.8867635292213052,
+        "setting": [
+          200,
+          15,
+          0.1
+        ],
+        "alpha": 0.5,
+        "model_file": "LightGBM_Line2_S3_grouped_F5.joblib",
+        "sha256": "bf14dea9493618a7df094ef073733f8dab37bd78e9fb22a906d4e0ac3410c9f9"
+      }
+    ],
+    "reference_metric_differences": {
+      "CV R2": -1.1102230246251565e-16,
+      "CV RMSE": 0.0,
+      "CV MAE": 0.0,
+      "Test R2": 0.0,
+      "Test RMSE": 0.0,
+      "Test MAE": 2.220446049250313e-16
+    },
+    "exact_to_8_decimal_places": true
+  },
+  {
+    "Stage": 3,
+    "CV type": "Conventional random",
+    "features": 55,
+    "CV R2": 0.8588818129335225,
+    "CV RMSE": 0.4841998946222808,
+    "CV MAE": 0.3148543720687615,
+    "Test R2": 0.44930596228542863,
+    "Test RMSE": 0.898563558298271,
+    "Test MAE": 0.7339859783975397,
+    "fold_info": [
+      {
+        "fold": 1,
+        "n_train": 796,
+        "n_holdout": 199,
+        "CV_R2": 0.8582521089931882,
+        "setting": [
+          500,
+          31,
+          0.1
+        ],
+        "alpha": 0.25,
+        "model_file": "LightGBM_Line2_S3_random_F1.joblib",
+        "sha256": "f5084c49bfcd51d2ecd0c4e5a7409aa1c52ac266c5258c75b966192c03f6f8a6"
+      },
+      {
+        "fold": 2,
+        "n_train": 796,
+        "n_holdout": 199,
+        "CV_R2": 0.8264539416512027,
+        "setting": [
+          200,
+          31,
+          0.03
+        ],
+        "alpha": 0.5,
+        "model_file": "LightGBM_Line2_S3_random_F2.joblib",
+        "sha256": "eece633e0b1d3f8e49b6bd26e40ab4261e695237731f6be102dd618d29b1be92"
+      },
+      {
+        "fold": 3,
+        "n_train": 796,
+        "n_holdout": 199,
+        "CV_R2": 0.8843812331566239,
+        "setting": [
+          200,
+          15,
+          0.1
+        ],
+        "alpha": 0,
+        "model_file": "LightGBM_Line2_S3_random_F3.joblib",
+        "sha256": "b23d51de7702c618f962f74c4c2e9e6986e102bcc3fcd800764e330f5312f078"
+      },
+      {
+        "fold": 4,
+        "n_train": 796,
+        "n_holdout": 199,
+        "CV_R2": 0.8630390827783739,
+        "setting": [
+          200,
+          7,
+          0.1
+        ],
+        "alpha": 1,
+        "model_file": "LightGBM_Line2_S3_random_F4.joblib",
+        "sha256": "eabfaf5187c02480555171648f2a2e1d42fc272f4e531546fcca279c8131406f"
+      },
+      {
+        "fold": 5,
+        "n_train": 796,
+        "n_holdout": 199,
+        "CV_R2": 0.8632572804067447,
+        "setting": [
+          200,
+          15,
+          0.1
+        ],
+        "alpha": 0.5,
+        "model_file": "LightGBM_Line2_S3_random_F5.joblib",
+        "sha256": "fd915d6f1e78891c16c201d7d269b8c2a21adb64cf42cc6302b1b7469036e323"
+      }
+    ],
+    "reference_metric_differences": {
+      "CV R2": 0.0,
+      "CV RMSE": 0.0,
+      "CV MAE": 0.0,
+      "Test R2": 0.0,
+      "Test RMSE": 0.0,
+      "Test MAE": 0.0
+    },
+    "exact_to_8_decimal_places": true
+  },
+  {
+    "Stage": 4,
+    "CV type": "Publication-grouped",
+    "features": 18,
+    "CV R2": 0.3914621568380142,
+    "CV RMSE": 1.0054882313374582,
+    "CV MAE": 0.769123075902422,
+    "Test R2": 0.5490737280551183,
+    "Test RMSE": 0.8131045360132994,
+    "Test MAE": 0.6385178364008192,
+    "fold_info": [
+      {
+        "fold": 1,
+        "n_train": 797,
+        "n_holdout": 198,
+        "CV_R2": 0.31522448682010307,
+        "setting": [
+          500,
+          31,
+          0.1
+        ],
+        "alpha": 0.25,
+        "model_file": "LightGBM_Line2_S4_grouped_F1.joblib",
+        "sha256": "f972fbab813aa15ce3be7c5cb832f78364e5eb0ffc3bc2fc07eb6639b1cc0838"
+      },
+      {
+        "fold": 2,
+        "n_train": 797,
+        "n_holdout": 198,
+        "CV_R2": 0.40114632568428465,
+        "setting": [
+          200,
+          31,
+          0.03
+        ],
+        "alpha": 0.5,
+        "model_file": "LightGBM_Line2_S4_grouped_F2.joblib",
+        "sha256": "ccf5e132b6f485f3e13fe86923aa3b64246bb6eb80fdbe29f188e85baa73f7e8"
+      },
+      {
+        "fold": 3,
+        "n_train": 796,
+        "n_holdout": 199,
+        "CV_R2": 0.43643831822562207,
+        "setting": [
+          200,
+          15,
+          0.1
+        ],
+        "alpha": 0,
+        "model_file": "LightGBM_Line2_S4_grouped_F3.joblib",
+        "sha256": "df86cadea87d555da86cc036500d5e049bae1b45f72824c2505a63c31313f3ac"
+      },
+      {
+        "fold": 4,
+        "n_train": 795,
+        "n_holdout": 200,
+        "CV_R2": 0.22849247808577877,
+        "setting": [
+          200,
+          7,
+          0.1
+        ],
+        "alpha": 1,
+        "model_file": "LightGBM_Line2_S4_grouped_F4.joblib",
+        "sha256": "4c562f67fc99538f3bf23ef557aa50eb569b9b26c0dbc736002b6562f3a4d1c1"
+      },
+      {
+        "fold": 5,
+        "n_train": 795,
+        "n_holdout": 200,
+        "CV_R2": 0.07552636673075352,
+        "setting": [
+          200,
+          15,
+          0.1
+        ],
+        "alpha": 0.5,
+        "model_file": "LightGBM_Line2_S4_grouped_F5.joblib",
+        "sha256": "1d86d3df3bb087dcdbcc6b2755b69d4bd0625ea153a9cebe8d72584b0cdf19d8"
+      }
+    ],
+    "reference_metric_differences": {
+      "CV R2": -1.1102230246251565e-16,
+      "CV RMSE": 0.0,
+      "CV MAE": 0.0,
+      "Test R2": 0.0,
+      "Test RMSE": 0.0,
+      "Test MAE": 0.0
+    },
+    "exact_to_8_decimal_places": true
+  },
+  {
+    "Stage": 4,
+    "CV type": "Conventional random",
+    "features": 18,
+    "CV R2": 0.830470589992342,
+    "CV RMSE": 0.5307081067138008,
+    "CV MAE": 0.34362891586512123,
+    "Test R2": 0.5117822249798044,
+    "Test RMSE": 0.846058529071682,
+    "Test MAE": 0.7017245481654881,
+    "fold_info": [
+      {
+        "fold": 1,
+        "n_train": 796,
+        "n_holdout": 199,
+        "CV_R2": 0.8080845394724772,
+        "setting": [
+          500,
+          31,
+          0.1
+        ],
+        "alpha": 0.25,
+        "model_file": "LightGBM_Line2_S4_random_F1.joblib",
+        "sha256": "cdd91756784597376ff6a4663497f3f11f90e1e3f0b84aac68c480cece57f4a7"
+      },
+      {
+        "fold": 2,
+        "n_train": 796,
+        "n_holdout": 199,
+        "CV_R2": 0.7839125544868983,
+        "setting": [
+          200,
+          31,
+          0.03
+        ],
+        "alpha": 0.5,
+        "model_file": "LightGBM_Line2_S4_random_F2.joblib",
+        "sha256": "ed2eb1a9a2a8f17d161ca6399b1fcac10be0e336955e3e9af4138b0474321689"
+      },
+      {
+        "fold": 3,
+        "n_train": 796,
+        "n_holdout": 199,
+        "CV_R2": 0.8601195090345031,
+        "setting": [
+          200,
+          15,
+          0.1
+        ],
+        "alpha": 0,
+        "model_file": "LightGBM_Line2_S4_random_F3.joblib",
+        "sha256": "9a739a1769f1059d89e39c7b1b83b21fe71d58030d218ea47530262d8da93221"
+      },
+      {
+        "fold": 4,
+        "n_train": 796,
+        "n_holdout": 199,
+        "CV_R2": 0.8437726537216711,
+        "setting": [
+          200,
+          7,
+          0.1
+        ],
+        "alpha": 1,
+        "model_file": "LightGBM_Line2_S4_random_F4.joblib",
+        "sha256": "c52f963f376d4293d3a54cd0536c97e52073b731c61d5ffe55270bc68bf5ec74"
+      },
+      {
+        "fold": 5,
+        "n_train": 796,
+        "n_holdout": 199,
+        "CV_R2": 0.852814885927172,
+        "setting": [
+          200,
+          15,
+          0.1
+        ],
+        "alpha": 0.5,
+        "model_file": "LightGBM_Line2_S4_random_F5.joblib",
+        "sha256": "fc447b78465e2fecea2a6af8f6480fba05db2b63aaa800502ee107e9caaa4276"
+      }
+    ],
+    "reference_metric_differences": {
+      "CV R2": 0.0,
+      "CV RMSE": 0.0,
+      "CV MAE": 0.0,
+      "Test R2": 0.0,
+      "Test RMSE": 0.0,
+      "Test MAE": 0.0
+    },
+    "exact_to_8_decimal_places": true
+  }
+]

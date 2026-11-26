@@ -1,0 +1,72 @@
+{
+  "files": {
+    "inputs/line3/Line3_Test_Row_Predictions.csv": {
+      "sha256": "107afab755aebace21db2c37ccc5c94cd4df53b4820e5e7b4027fb1a13507519",
+      "size_bytes": 247221
+    },
+    "inputs/line3/Per_Publication_Budgets.csv": {
+      "sha256": "1709de3b0b5d6e7078f1fdedb817b0b244032452215665940c7ecefd828dd78b",
+      "size_bytes": 483
+    },
+    "inputs/line3/Random_Permutations_500.csv": {
+      "sha256": "9ccf879d7ae6ab039993f88a5e66d9305c9f4b00dc52cfe22ba514056ecabc22",
+      "size_bytes": 418289
+    },
+    "inputs/line3/test55.json": {
+      "sha256": "b7d051b484968fb17071c585dc2a1ad8c3586563d6bd5ff6f748f28478a13921",
+      "size_bytes": 78871
+    },
+    "inputs/line3/train55.json": {
+      "sha256": "b97431b7e6a2be681919ee05c17d1674fa538e309ee05d94c304858fbc2e24ae",
+      "size_bytes": 377404
+    },
+    "inputs/line2/AUDIT_FINAL_Stage1_Conventional_random.npz": {
+      "sha256": "e9a3d77e39298b1655f3022ab9c4795ec81daa5698aba02a8865802ab17f224a",
+      "size_bytes": 55115
+    },
+    "inputs/line2/AUDIT_FINAL_Stage1_Publication_grouped.npz": {
+      "sha256": "d6e6006e9e44769543b6286dd8b5cc1515c0e533762d1efb12a887edfab8df31",
+      "size_bytes": 48612
+    },
+    "inputs/line2/AUDIT_FINAL_Stage2_Conventional_random.npz": {
+      "sha256": "1fa375a4ffa94bc2ebb116e00de94d0e2b42ad56d499e1486982fd509bb7c493",
+      "size_bytes": 55683
+    },
+    "inputs/line2/AUDIT_FINAL_Stage2_Publication_grouped.npz": {
+      "sha256": "9a5eb58561db3de32b0a7c9e9a329d3f845070cdbdf19d05ab152b6b15f41a25",
+      "size_bytes": 52094
+    },
+    "inputs/line2/AUDIT_FINAL_Stage3_Conventional_random.npz": {
+      "sha256": "5780de23f3ddd36da9afbf3f7d33c077b1f7b954ceb7c68158e057ba5caab31f",
+      "size_bytes": 55996
+    },
+    "inputs/line2/AUDIT_FINAL_Stage3_Publication_grouped.npz": {
+      "sha256": "b743eb70b3a6b2d9ed3ce856725cd9dd2c4eda3cdb14b1e93ac3ee5b8777193b",
+      "size_bytes": 52277
+    },
+    "inputs/line2/AUDIT_FINAL_Stage4_Conventional_random.npz": {
+      "sha256": "10f7e04db56f1185b6df09bc5436d2ec8017e60c6087174e61cce4b0128d34a7",
+      "size_bytes": 53638
+    },
+    "inputs/line2/AUDIT_FINAL_Stage4_Publication_grouped.npz": {
+      "sha256": "b02092e1b157f8d9599f19a89052f8fd231fa5922918280d5ac4e02810d3f855",
+      "size_bytes": 48345
+    },
+    "inputs/line2/Per_Publication_Budgets.csv": {
+      "sha256": "6638f8d352453c51e20df8c37e8955fa4678f13dcebf3111bd8cf6ea722fac68",
+      "size_bytes": 373
+    },
+    "inputs/line2/Random_Permutations_500.csv": {
+      "sha256": "8dc6aaeeb57a52e49c8ef8baf36b901e069cf9dd415aad3e794353fbcffd5651",
+      "size_bytes": 471005
+    },
+    "inputs/line2/test55.json": {
+      "sha256": "616251e86b4e5777c41cf4595b968a9385a2d155d20116ed0f4ddf919f00a95b",
+      "size_bytes": 89965
+    },
+    "inputs/line2/train55.json": {
+      "sha256": "c27547b7186bcb0cee8d5b428fa9c7157b05ca71191d82060fde3a8ca490b6d7",
+      "size_bytes": 366098
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "scope": "Line3 Figure2c: all five models, Stages 1-4, 2 CV-trained external-test prediction schemes, four budgets, 500 random replicates each",
+  "input_prediction_sha256": "107afab755aebace21db2c37ccc5c94cd4df53b4820e5e7b4027fb1a13507519",
+  "input_audit_sha256": "59f19a222f10e0ec82c8ac756373ba61f0fc457f127d61460675b0baaec6b3fa",
+  "rows": 218,
+  "references": [
+    4,
+    11,
+    12,
+    13,
+    14,
+    20,
+    26
+  ],
+  "budget_fractions": [
+    0.025,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "replicates_per_configuration": 500,
+  "random_seed": 42,
+  "total_calibration_comparisons": 80000,
+  "total_per_publication_comparisons": 560000,
+  "sampling_rule": "single np.random.default_rng(42); for each replicate, permute all 7 Ref ID row indices in ascending Ref ID order; nested prefixes for 2.5/5/10/20%; same draws shared across ALL models/stages/protocols",
+  "budget_rule": "per-publication ceil(f*N); report exact counts; minimum one observation per ref",
+  "calibration": "per-reference additive mean(y_cal - yhat_cal) on ln(1+DBP concentration); all calibration rows excluded from zero-shot and calibrated scoring",
+  "validation": "frozen external Test predictions independently previously reproduced against 80 SI targets; all 40 row vectors validated against source audit before calibration; no new ML training, tuning or selection",
+  "uncertainty": "500 selection-resampling quantiles describe variation conditional on seven held-out publications; not cross-publication confidence intervals",
+  "outputs": {
+    "Random_Permutations_500x7.csv": "9ccf879d7ae6ab039993f88a5e66d9305c9f4b00dc52cfe22ba514056ecabc22",
+    "Line3_RandomFewShot_PerPublication_Replicates_560000.csv": "3c7b5aeb3c933c95f788765036c53075a9c219ab00e0bba191742d44b8d8df40",
+    "Line3_RandomFewShot_Replicates_80000.csv": "d0edaa8f7efbf3f99b6318bcf5bcb4cdc71798d3842912586a0e130d93b4cc73",
+    "Per_Publication_Budgets.csv": "1709de3b0b5d6e7078f1fdedb817b0b244032452215665940c7ecefd828dd78b",
+    "Line3_RandomFewShot_Summary_160.csv": "a3eaa2246be7d20634709dc7b9e01ff36f96d5a7e7bf6f9aa527d2112ab58b31",
+    "Line3_ZeroShot_Original_218.csv": "66a57ffbdf548632bbea87b04dbb69c320b39d73cc769539e7da68f1f3e8d6ff",
+    "Line3_RandomFewShot_PerPublication_Summary_1120.csv": "542d15636e9888a359351d5138d289c50601aa90c5d139ef6c513bff6823f5a1"
+  }
+}

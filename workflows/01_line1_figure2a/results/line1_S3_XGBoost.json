@@ -1,0 +1,108 @@
+{
+  "stage": "S3",
+  "model": "XGBoost",
+  "n_features": 48,
+  "features": [
+    "polymer type",
+    "additives",
+    "particle size (mm)",
+    "MP dose (g/L)",
+    "pretreatment type",
+    "duration (h)",
+    "mixing speed (rpm)",
+    "pretreatment temperature (°C)",
+    "chemical dose (mg/L)",
+    "UV dose (J/cm2)",
+    "sample phase",
+    "DOC (mg/L C)",
+    "pH",
+    "buffer",
+    "buffer conc. (mM)",
+    "bromide added/leached (mg/L)",
+    "disinfectant",
+    "disinfectant dose (mg/L as Cl2)",
+    "contact time (h)",
+    "disinfection temperature (°C)",
+    "quenching agent",
+    "DBP name",
+    "MW",
+    "N_count",
+    "O_count",
+    "Cl_count",
+    "Br_count",
+    "Total_halogen",
+    "Halogen_C_ratio",
+    "logP",
+    "TPSA",
+    "HBA",
+    "HBD",
+    "HOMO",
+    "LUMO",
+    "HOMO-LUMO Gap",
+    "Dipole Moment",
+    "Ionization Potential",
+    "Electron Affinity",
+    "Chemical Potential",
+    "Chemical Hardness",
+    "Softness",
+    "Polymer aromatic structure",
+    "Polymer carbonyl group",
+    "Polymer backbone ester",
+    "Polymer amide/urethane N",
+    "Polymer covalent halogen",
+    "Polymer copolymer/segmented/composite"
+  ],
+  "cv": {
+    "r2": 0.9108440213359371,
+    "rmse": 0.4269738389033364,
+    "mae": 0.28922192852996714
+  },
+  "test": {
+    "r2": 0.8633927946221496,
+    "rmse": 0.5092910398853409,
+    "mae": 0.2966045555181108
+  },
+  "folds": [
+    {
+      "r2": 0.9240387419168293,
+      "rmse": 0.3996516716768326,
+      "mae": 0.27883142642135295
+    },
+    {
+      "r2": 0.8938839914517814,
+      "rmse": 0.4531280240748284,
+      "mae": 0.32692454814182703
+    },
+    {
+      "r2": 0.9217301546752303,
+      "rmse": 0.3862618439690425,
+      "mae": 0.25862940663483547
+    },
+    {
+      "r2": 0.8885543024789841,
+      "rmse": 0.48009200925857765,
+      "mae": 0.31423038838774103
+    },
+    {
+      "r2": 0.9216092547229885,
+      "rmse": 0.40841190139724515,
+      "mae": 0.2674938730640792
+    }
+  ],
+  "target_cv_r2": 0.9108,
+  "target_test_r2": 0.8634,
+  "delta_cv_r2": 4.4021335937061146e-05,
+  "delta_test_r2": -7.20537785037223e-06,
+  "params": {
+    "n_estimators": 600,
+    "max_depth": 6,
+    "learning_rate": 0.025230515223593646,
+    "min_child_weight": 0.517914384198523,
+    "subsample": 0.8374709757162002,
+    "colsample_bytree": 0.8610724800899925,
+    "reg_alpha": 0.05006233869672168,
+    "reg_lambda": 0.03616020757636161,
+    "gamma": 0.004660824731852315
+  },
+  "runtime_sec": 2.0
+}

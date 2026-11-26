@@ -1,0 +1,82 @@
+{
+  "stage": "S1",
+  "model": "XGBoost",
+  "n_features": 22,
+  "features": [
+    "polymer type",
+    "additives",
+    "particle size (mm)",
+    "MP dose (g/L)",
+    "pretreatment type",
+    "duration (h)",
+    "mixing speed (rpm)",
+    "pretreatment temperature (°C)",
+    "chemical dose (mg/L)",
+    "UV dose (J/cm2)",
+    "sample phase",
+    "DOC (mg/L C)",
+    "pH",
+    "buffer",
+    "buffer conc. (mM)",
+    "bromide added/leached (mg/L)",
+    "disinfectant",
+    "disinfectant dose (mg/L as Cl2)",
+    "contact time (h)",
+    "disinfection temperature (°C)",
+    "quenching agent",
+    "DBP name"
+  ],
+  "cv": {
+    "r2": 0.8954378525481069,
+    "rmse": 0.4623951576880595,
+    "mae": 0.3156137698812906
+  },
+  "test": {
+    "r2": 0.8504942760076718,
+    "rmse": 0.5327925485614101,
+    "mae": 0.33350580752085207
+  },
+  "folds": [
+    {
+      "r2": 0.9080688817791274,
+      "rmse": 0.4396598736743378,
+      "mae": 0.29950165917554156
+    },
+    {
+      "r2": 0.8841726695540888,
+      "rmse": 0.47340843611583155,
+      "mae": 0.3435471573946225
+    },
+    {
+      "r2": 0.907479270315701,
+      "rmse": 0.41995629568595433,
+      "mae": 0.2870147710859423
+    },
+    {
+      "r2": 0.8595125842997652,
+      "rmse": 0.5390282614354179,
+      "mae": 0.35066230661891723
+    },
+    {
+      "r2": 0.9131897742505108,
+      "rmse": 0.4297851794204833,
+      "mae": 0.29734295513142917
+    }
+  ],
+  "target_cv_r2": 0.8954,
+  "target_test_r2": 0.8505,
+  "delta_cv_r2": 3.78525481069536e-05,
+  "delta_test_r2": -5.723992328232619e-06,
+  "params": {
+    "n_estimators": 600,
+    "max_depth": 6,
+    "learning_rate": 0.025230515223593646,
+    "min_child_weight": 0.517914384198523,
+    "subsample": 0.8374709757162002,
+    "colsample_bytree": 0.8610724800899925,
+    "reg_alpha": 0.05006233869672168,
+    "reg_lambda": 0.03616020757636161,
+    "gamma": 0.004660824731852315
+  },
+  "runtime_sec": 1.35
+}

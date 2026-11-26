@@ -1,0 +1,114 @@
+{
+  "stage": "S2",
+  "model": "CatBoost",
+  "n_features": 55,
+  "features": [
+    "polymer type",
+    "additives",
+    "particle size (mm)",
+    "MP dose (g/L)",
+    "pretreatment type",
+    "duration (h)",
+    "mixing speed (rpm)",
+    "pretreatment temperature (°C)",
+    "chemical dose (mg/L)",
+    "UV dose (J/cm2)",
+    "sample phase",
+    "DOC (mg/L C)",
+    "pH",
+    "buffer",
+    "buffer conc. (mM)",
+    "bromide added/leached (mg/L)",
+    "disinfectant",
+    "disinfectant dose (mg/L as Cl2)",
+    "contact time (h)",
+    "disinfection temperature (°C)",
+    "quenching agent",
+    "DBP name",
+    "MW",
+    "C_count",
+    "N_count",
+    "O_count",
+    "Cl_count",
+    "Br_count",
+    "Total_halogen",
+    "Br_fraction",
+    "Halogen_C_ratio",
+    "logP",
+    "TPSA",
+    "HBA",
+    "HBD",
+    "Molar_refractivity",
+    "Molecular_volume",
+    "HOMO",
+    "LUMO",
+    "HOMO-LUMO Gap",
+    "Dipole Moment",
+    "Ionization Potential",
+    "Electron Affinity",
+    "Chemical Potential",
+    "Electronegativity",
+    "Chemical Hardness",
+    "Softness",
+    "Electrophilicity",
+    "Polymer aromatic structure",
+    "Polymer carbonyl group",
+    "Polymer backbone ester",
+    "Polymer amide/urethane N",
+    "Polymer nitrile N",
+    "Polymer covalent halogen",
+    "Polymer copolymer/segmented/composite"
+  ],
+  "cv": {
+    "r2": 0.897244786635554,
+    "rmse": 0.4583824305264813,
+    "mae": 0.31993143740285257
+  },
+  "test": {
+    "r2": 0.8680076192366886,
+    "rmse": 0.5006147752153634,
+    "mae": 0.3088473572572779
+  },
+  "folds": [
+    {
+      "r2": 0.9137388170937887,
+      "rmse": 0.42588590211555466,
+      "mae": 0.3059054700314638
+    },
+    {
+      "r2": 0.8948929044042898,
+      "rmse": 0.4509687901390071,
+      "mae": 0.3219909723737066
+    },
+    {
+      "r2": 0.9046255032852322,
+      "rmse": 0.4263838053833508,
+      "mae": 0.2989321507597767
+    },
+    {
+      "r2": 0.8808232213956241,
+      "rmse": 0.49646500959437606,
+      "mae": 0.35523773746609005
+    },
+    {
+      "r2": 0.8883638918872692,
+      "rmse": 0.4873807100531076,
+      "mae": 0.31759085638322565
+    }
+  ],
+  "target_cv_r2": 0.8972,
+  "target_test_r2": 0.868,
+  "delta_cv_r2": 4.4786635553961673e-05,
+  "delta_test_r2": 7.619236688571895e-06,
+  "params": {
+    "iterations": 500,
+    "depth": 5,
+    "learning_rate": 0.1786861885549884,
+    "l2_leaf_reg": 0.0010839006279033633,
+    "random_strength": 1.997407617480316,
+    "subsample": 0.9866214592657088,
+    "rsm": 0.6273081880110045,
+    "bootstrap_type": "MVS"
+  },
+  "runtime_sec": 3.19
+}

@@ -1,0 +1,54 @@
+{
+  "status": "ALL CHECKS PASS",
+  "model": "LightGBM",
+  "line": "Figure 2b (Line 2)",
+  "random_draws_same_as_RF_XGBoost": true,
+  "replicate_rows": 16000,
+  "publication_replicate_rows": 80000,
+  "summary_rows": 32,
+  "acceptance_si_legacy_6_results": [
+    {
+      "Stage": 3,
+      "Budget_pct": 5.0,
+      "R2": 0.5157
+    },
+    {
+      "Stage": 3,
+      "Budget_pct": 10.0,
+      "R2": 0.5615
+    },
+    {
+      "Stage": 3,
+      "Budget_pct": 20.0,
+      "R2": 0.5847
+    },
+    {
+      "Stage": 4,
+      "Budget_pct": 5.0,
+      "R2": 0.517
+    },
+    {
+      "Stage": 4,
+      "Budget_pct": 10.0,
+      "R2": 0.5657
+    },
+    {
+      "Stage": 4,
+      "Budget_pct": 20.0,
+      "R2": 0.5919
+    }
+  ],
+  "frozen_test_rows": 249,
+  "calibration_total": [
+    9,
+    15,
+    28,
+    53
+  ],
+  "spotcheck": "Stage4 Grouped 2.5% replicate1 recalculated with independent numpy formula matches stored R2",
+  "training_workbook_sha256": "de1e28d1525c97d802e5b3dd261dd7409bea3bbeade02875d3ac36fe76947fb9",
+  "test_workbook_sha256": "75e5164aba4c974e54f4974dee86a65d37228e9194ada504f6133552c77fdfc8",
+  "software": {
+    "numpy": "2.3.5"
+  }
+}

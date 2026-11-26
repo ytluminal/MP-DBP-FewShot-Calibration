@@ -1,0 +1,12 @@
+{
+  "n_rows": 995,
+  "max_prediction_difference": 4.440892098500626e-16,
+  "max_SHAP_difference_by_feature": {
+    "SHAP | pretreatment type": 9.974659986866641e-17,
+    "SHAP | duration (h)": 9.8879238130678e-17,
+    "SHAP | mixing speed (rpm)": 9.974659986866641e-17,
+    "SHAP | pretreatment temperature (\u00b0C)": 9.974659986866641e-17,
+    "SHAP | chemical dose (mg/L)": 9.71445146547012e-17,
+    "SHAP | UV dose (J/cm2)": 9.93129189996722e-17
+  }
+}

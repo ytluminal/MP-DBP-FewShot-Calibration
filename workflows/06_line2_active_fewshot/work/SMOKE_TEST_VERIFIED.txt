@@ -1,0 +1,20 @@
+Centroid + Maximin Active Few-Shot: SELF-CONTAINED SMOKE TEST PASSED
+
+Command:
+    python run_active_fewshot.py --line both --smoke --out smoke_test
+
+Verified:
+- 17 frozen input asset SHA-256 values matched INPUT_SHA256.json.
+- Line 2: train=995, test=249, refs=5, 55 raw features, 120 encoded columns,
+  40 model-stage-protocol predictions, 160 active-own configuration cells,
+  480 matched Active-Random replicates, 2400 per-reference matched comparisons.
+- Line 3: train=1026, test=218, refs=7, 55 raw features, 116 encoded columns,
+  40 model-stage-protocol predictions, 160 active-own configuration cells,
+  480 matched Active-Random replicates, 3360 per-reference matched comparisons.
+- Source Test y and Ref IDs matched frozen predictions (Line2 NPZ and Line3 CSV).
+- Source 500 random permutations verified as a per-ref permutation of the
+  original full Test row IDs; smoke uses replicates 1–3 only.
+
+Important: This smoke test verifies the execution and alignment, not the
+scientific hypothesis or that active selection outperforms random selection.
+The full 500-replicate run is intended for the new chat.

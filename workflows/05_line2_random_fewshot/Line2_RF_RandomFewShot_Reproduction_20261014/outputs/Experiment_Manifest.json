@@ -1,0 +1,79 @@
+{
+  "experiment": "Line2 Figure2b Random Forest Stages1-4; Grouped and Random-CV fold-trained test predictions",
+  "all_runs": 16000,
+  "random_replicates": 500,
+  "seed": 42,
+  "protocols": [
+    "Grouped",
+    "RandomCV"
+  ],
+  "budgets": [
+    0.025,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "test_rows": 249,
+  "references": [
+    7,
+    14,
+    16,
+    21,
+    22
+  ],
+  "n_cal_round": "ceil(fraction * N_ref) independently per target reference",
+  "random_sampling": "single numpy default_rng(42), for each replicate permutation of ref test rows in order 7,14,16,21,22; identical permutations reused across stage and training protocol; budget samples nested prefixes",
+  "calibration": "per-reference mean(y_true_cal - y_pred_cal) added to frozen zero-shot ln(1+C_DBP) Test predictions; calibration rows excluded from scoring",
+  "comparison": "paired same-remainder zero-shot and calibrated metrics for each replicate; pooled across remaining rows",
+  "quantiles": "numpy quantile linear interpolation; median and 5/25/75/95 percentiles",
+  "input_archives": {
+    "Stage1_Grouped": {
+      "filename": "AUDIT_FINAL_Stage1_Publication_grouped.npz",
+      "sha256": "d6e6006e9e44769543b6286dd8b5cc1515c0e533762d1efb12a887edfab8df31"
+    },
+    "Stage1_RandomCV": {
+      "filename": "AUDIT_FINAL_Stage1_Conventional_random.npz",
+      "sha256": "e9a3d77e39298b1655f3022ab9c4795ec81daa5698aba02a8865802ab17f224a"
+    },
+    "Stage2_Grouped": {
+      "filename": "AUDIT_FINAL_Stage2_Publication_grouped.npz",
+      "sha256": "9a5eb58561db3de32b0a7c9e9a329d3f845070cdbdf19d05ab152b6b15f41a25"
+    },
+    "Stage2_RandomCV": {
+      "filename": "AUDIT_FINAL_Stage2_Conventional_random.npz",
+      "sha256": "1fa375a4ffa94bc2ebb116e00de94d0e2b42ad56d499e1486982fd509bb7c493"
+    },
+    "Stage3_Grouped": {
+      "filename": "AUDIT_FINAL_Stage3_Publication_grouped.npz",
+      "sha256": "b743eb70b3a6b2d9ed3ce856725cd9dd2c4eda3cdb14b1e93ac3ee5b8777193b"
+    },
+    "Stage3_RandomCV": {
+      "filename": "AUDIT_FINAL_Stage3_Conventional_random.npz",
+      "sha256": "5780de23f3ddd36da9afbf3f7d33c077b1f7b954ceb7c68158e057ba5caab31f"
+    },
+    "Stage4_Grouped": {
+      "filename": "AUDIT_FINAL_Stage4_Publication_grouped.npz",
+      "sha256": "b02092e1b157f8d9599f19a89052f8fd231fa5922918280d5ac4e02810d3f855"
+    },
+    "Stage4_RandomCV": {
+      "filename": "AUDIT_FINAL_Stage4_Conventional_random.npz",
+      "sha256": "10f7e04db56f1185b6df09bc5436d2ec8017e60c6087174e61cce4b0128d34a7"
+    }
+  },
+  "output_files": {
+    "Per_Publication_Budgets.csv": "6638f8d352453c51e20df8c37e8955fa4678f13dcebf3111bd8cf6ea722fac68",
+    "RF_Grouped_Paired_R2_Gains.svg": "ef71be680264728fe0622b528842d3c904bc7f2d5d25c2bdf1062bd495612bb7",
+    "RF_Grouped_Paired_R2_Gains_600dpi.png": "21a7df09ec09ed6375697ad28d75a78f5383e9af14e59941ff4c63e4e6dd90fd",
+    "RF_Line2_RandomFewShot_Results.xlsx": "7d81db80773336094fe145c4b9e524706bce4a310d13bc45513e7621846b745d",
+    "RF_RandomCV_Paired_R2_Gains.svg": "3fd05b1a3c6e5ae23f0cbedc9fbbeb043decfb3b547199e55d11fd79b8f569c1",
+    "RF_RandomCV_Paired_R2_Gains_600dpi.png": "5c938e7b365479bbfd10ecb629b0952b66d736485ceca7acd7e800a4110a6894",
+    "RF_RandomFewShot_PerPublication_Replicates_80000.csv": "aa55932cbd4489a551ae35913abdf7f45d30740b530c78827241f8b7c42133b1",
+    "RF_RandomFewShot_PerPublication_Summary_160.csv": "962c0b750301fe49fadd3108902a1aaf1dd0c6fc215598b0b7745a47cd1aa8e7",
+    "RF_RandomFewShot_Replicates_16000.csv": "eda88c249172abc3d39d3d3d2b9ddcb3ae19ca9a7e1f69914d4be0334f79a429",
+    "RF_RandomFewShot_Summary_32.csv": "dd9fe70b12923387cc228257a5c991552a42c9761a0baaa4e4ec8ad58882b172",
+    "RF_Stage4_PerPublication_RMSE_Gains.svg": "f43b6ad87d04f1b243894addf801e7ec578bf88c504ec7259056722c3a42dd36",
+    "RF_Stage4_PerPublication_RMSE_Gains_600dpi.png": "80ef21edb99c8327cc3f33d7ff6549af5018add06c44a906d2908779539c8508",
+    "Random_Permutations_500x5.csv": "8dc6aaeeb57a52e49c8ef8baf36b901e069cf9dd415aad3e794353fbcffd5651",
+    "ZeroShot_Original_249.csv": "323b12ea86466e2d68eb3e1906546684e0dbe8335f7a78debc616f314714df12"
+  }
+}

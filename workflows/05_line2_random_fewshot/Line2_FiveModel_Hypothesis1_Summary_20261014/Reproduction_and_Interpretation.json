@@ -1,0 +1,102 @@
+{
+  "input_zip_SHA256": {
+    "Line2_RF_RandomFewShot_Reproduction_20261014.zip": "13db2164d5023ec14cc6f6cedd57706d360c4cf7ceea9c3178efc5a1699ac178",
+    "Line2_XGBoost_RandomFewShot_Reproduction_20261014.zip": "e5425a22250b4fe09e72501d6bd5106783215a98b92cf626dce083340c292b9e",
+    "Line2_LightGBM_RandomFewShot_Reproduction_20261014.zip": "54f6b2a9a7b0e15668614c15476c1151d035c12cb6b6c36d7907dc5688a20b2c",
+    "Line2_NativeCatBoost_RandomFewShot_Reproduction_20261014.zip": "12ce33fc4da5a45aac1e27d042402afd67eb5e7b9c615bac8d65f551786f18c1",
+    "Line2_Equal4_RandomFewShot_Reproduction_20261014.zip": "836a91ce3bb95a049900e446db14bdb21f3a0bf90dbcd94e9efd73e5b651b084"
+  },
+  "total_model_stage_protocol_budget_configs": 160,
+  "total_random_replicates": 80000,
+  "per_publication_summaries": 800,
+  "counts_by_budget": [
+    {
+      "Protocol": "Grouped",
+      "Budget_pct": 2.5,
+      "N_model_stage": 20,
+      "N_median_gain_positive": 16,
+      "N_median_gain_negative": 4,
+      "N_fraction_improvement_at_least_80pct": 12,
+      "Median_of_20_config_median_Delta_R2": 0.2579860572373356,
+      "Median_of_20_config_improvement_fraction": 0.89
+    },
+    {
+      "Protocol": "Grouped",
+      "Budget_pct": 5,
+      "N_model_stage": 20,
+      "N_median_gain_positive": 19,
+      "N_median_gain_negative": 1,
+      "N_fraction_improvement_at_least_80pct": 14,
+      "Median_of_20_config_median_Delta_R2": 0.29948268891063834,
+      "Median_of_20_config_improvement_fraction": 0.979
+    },
+    {
+      "Protocol": "Grouped",
+      "Budget_pct": 10,
+      "N_model_stage": 20,
+      "N_median_gain_positive": 20,
+      "N_median_gain_negative": 0,
+      "N_fraction_improvement_at_least_80pct": 18,
+      "Median_of_20_config_median_Delta_R2": 0.3480854370049073,
+      "Median_of_20_config_improvement_fraction": 1.0
+    },
+    {
+      "Protocol": "Grouped",
+      "Budget_pct": 20,
+      "N_model_stage": 20,
+      "N_median_gain_positive": 20,
+      "N_median_gain_negative": 0,
+      "N_fraction_improvement_at_least_80pct": 20,
+      "Median_of_20_config_median_Delta_R2": 0.3781288644971358,
+      "Median_of_20_config_improvement_fraction": 1.0
+    },
+    {
+      "Protocol": "RandomCV",
+      "Budget_pct": 2.5,
+      "N_model_stage": 20,
+      "N_median_gain_positive": 17,
+      "N_median_gain_negative": 3,
+      "N_fraction_improvement_at_least_80pct": 14,
+      "Median_of_20_config_median_Delta_R2": 0.27369421050869214,
+      "Median_of_20_config_improvement_fraction": 0.893
+    },
+    {
+      "Protocol": "RandomCV",
+      "Budget_pct": 5,
+      "N_model_stage": 20,
+      "N_median_gain_positive": 18,
+      "N_median_gain_negative": 2,
+      "N_fraction_improvement_at_least_80pct": 16,
+      "Median_of_20_config_median_Delta_R2": 0.3214439290175386,
+      "Median_of_20_config_improvement_fraction": 0.983
+    },
+    {
+      "Protocol": "RandomCV",
+      "Budget_pct": 10,
+      "N_model_stage": 20,
+      "N_median_gain_positive": 20,
+      "N_median_gain_negative": 0,
+      "N_fraction_improvement_at_least_80pct": 18,
+      "Median_of_20_config_median_Delta_R2": 0.36553565733338333,
+      "Median_of_20_config_improvement_fraction": 1.0
+    },
+    {
+      "Protocol": "RandomCV",
+      "Budget_pct": 20,
+      "N_model_stage": 20,
+      "N_median_gain_positive": 20,
+      "N_median_gain_negative": 0,
+      "N_fraction_improvement_at_least_80pct": 20,
+      "Median_of_20_config_median_Delta_R2": 0.3978252809218089,
+      "Median_of_20_config_improvement_fraction": 1.0
+    }
+  ],
+  "stage4_grouped_20pct_papers_improved_median_RMSE": 20,
+  "stage4_grouped_20pct_total_paper_model_comparisons": 25,
+  "notes": [
+    "Each replicate uses matched non-calibration rows for zero-shot and calibration.",
+    "Replicates share target publications and random selections across models; they are not independent publications.",
+    "The former held-out target publications are now used for retrospective calibration; not blinded external performance.",
+    "This analyses frozen predictions; no models were refit or tuned."
+  ]
+}

@@ -1,0 +1,118 @@
+encoded_column_index,encoded_column_name,original_feature
+0,particle size (mm),particle size (mm)
+1,MP dose (g/L),MP dose (g/L)
+2,duration (h),duration (h)
+3,mixing speed (rpm),mixing speed (rpm)
+4,pretreatment temperature (°C),pretreatment temperature (°C)
+5,chemical dose (mg/L),chemical dose (mg/L)
+6,UV dose (J/cm2),UV dose (J/cm2)
+7,DOC (mg/L C),DOC (mg/L C)
+8,pH,pH
+9,buffer conc. (mM),buffer conc. (mM)
+10,bromide added/leached (mg/L),bromide added/leached (mg/L)
+11,disinfectant dose (mg/L as Cl2),disinfectant dose (mg/L as Cl2)
+12,contact time (h),contact time (h)
+13,disinfection temperature (°C),disinfection temperature (°C)
+14,MW,MW
+15,C_count,C_count
+16,N_count,N_count
+17,O_count,O_count
+18,Cl_count,Cl_count
+19,Br_count,Br_count
+20,Total_halogen,Total_halogen
+21,Br_fraction,Br_fraction
+22,Halogen_C_ratio,Halogen_C_ratio
+23,logP,logP
+24,TPSA,TPSA
+25,HBA,HBA
+26,HBD,HBD
+27,Molar_refractivity,Molar_refractivity
+28,Molecular_volume,Molecular_volume
+29,HOMO,HOMO
+30,LUMO,LUMO
+31,HOMO-LUMO Gap,HOMO-LUMO Gap
+32,Dipole Moment,Dipole Moment
+33,Ionization Potential,Ionization Potential
+34,Electron Affinity,Electron Affinity
+35,Chemical Potential,Chemical Potential
+36,Electronegativity,Electronegativity
+37,Chemical Hardness,Chemical Hardness
+38,Softness,Softness
+39,Electrophilicity,Electrophilicity
+40,Polymer aromatic structure,Polymer aromatic structure
+41,Polymer carbonyl group,Polymer carbonyl group
+42,Polymer backbone ester,Polymer backbone ester
+43,Polymer amide/urethane N,Polymer amide/urethane N
+44,Polymer nitrile N,Polymer nitrile N
+45,Polymer covalent halogen,Polymer covalent halogen
+46,Polymer copolymer/segmented/composite,Polymer copolymer/segmented/composite
+47,polymer type = PA,polymer type
+48,polymer type = PA6,polymer type
+49,polymer type = PAN,polymer type
+50,polymer type = PBAT,polymer type
+51,polymer type = PE,polymer type
+52,polymer type = PET,polymer type
+53,polymer type = PLA,polymer type
+54,polymer type = PP,polymer type
+55,polymer type = PS,polymer type
+56,polymer type = PVC,polymer type
+57,polymer type = TPU,polymer type
+58,polymer type = TWP,polymer type
+59,additives = N,additives
+60,additives = Y,additives
+61,pretreatment type = Cl2,pretreatment type
+62,pretreatment type = N,pretreatment type
+63,pretreatment type = O3,pretreatment type
+64,pretreatment type = O3/H2O2,pretreatment type
+65,pretreatment type = UV,pretreatment type
+66,pretreatment type = UV/Cl2,pretreatment type
+67,pretreatment type = UV/H2O2,pretreatment type
+68,pretreatment type = UV/O3,pretreatment type
+69,pretreatment type = mixing,pretreatment type
+70,sample phase = leachate,sample phase
+71,sample phase = suspension,sample phase
+72,buffer = N,buffer
+73,buffer = phosphate,buffer
+74,disinfectant = Cl2,disinfectant
+75,disinfectant = NH2Cl,disinfectant
+76,quenching agent = N,quenching agent
+77,quenching agent = ammonium chloride,quenching agent
+78,quenching agent = ascorbic acid,quenching agent
+79,quenching agent = sodium sulfite,quenching agent
+80,quenching agent = sodium thiosulfate,quenching agent
+81,DBP name = BCAA,DBP name
+82,DBP name = BCAM,DBP name
+83,DBP name = BCAN,DBP name
+84,DBP name = BDCAA,DBP name
+85,DBP name = BDCAL,DBP name
+86,DBP name = BDCAM,DBP name
+87,DBP name = BDCM,DBP name
+88,DBP name = BNM,DBP name
+89,DBP name = CAN,DBP name
+90,DBP name = CNM,DBP name
+91,DBP name = DBAA,DBP name
+92,DBP name = DBAN,DBP name
+93,DBP name = DBCAA,DBP name
+94,DBP name = DBCAL,DBP name
+95,DBP name = DBCAM,DBP name
+96,DBP name = DBCM,DBP name
+97,DBP name = DBNM,DBP name
+98,DBP name = DCAA,DBP name
+99,DBP name = DCAL,DBP name
+100,DBP name = DCAM,DBP name
+101,DBP name = DCAN,DBP name
+102,DBP name = DCNM,DBP name
+103,DBP name = DCP,DBP name
+104,DBP name = MBAA,DBP name
+105,DBP name = MCAA,DBP name
+106,DBP name = NDEA,DBP name
+107,DBP name = NDMA,DBP name
+108,DBP name = TBAA,DBP name
+109,DBP name = TBAL,DBP name
+110,DBP name = TBM,DBP name
+111,DBP name = TCAA,DBP name
+112,DBP name = TCAL,DBP name
+113,DBP name = TCAN,DBP name
+114,DBP name = TCM,DBP name
+115,DBP name = TCNM,DBP name
+116,DBP name = TCP,DBP name

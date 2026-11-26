@@ -1,0 +1,9 @@
+Scheme,Budget_pct,n_cal,n_eval,N_positive_median_Delta_R2,N_80pct_success,Median_of_20_Delta_R2_medians
+Publication-grouped,2.5,10,208,19,4,0.14738998520534222
+Publication-grouped,5,14,204,20,15,0.19159352024435314
+Publication-grouped,10,25,193,20,20,0.2481164598930432
+Publication-grouped,20,47,171,20,20,0.2809775478063481
+Conventional random,2.5,10,208,20,8,0.1719831628007165
+Conventional random,5,14,204,20,16,0.2167328504953018
+Conventional random,10,25,193,20,20,0.26991379443486946
+Conventional random,20,47,171,20,20,0.30096820980844485

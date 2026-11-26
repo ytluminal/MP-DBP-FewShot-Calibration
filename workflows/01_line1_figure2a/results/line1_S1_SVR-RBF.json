@@ -1,0 +1,76 @@
+{
+  "stage": "S1",
+  "model": "SVR-RBF",
+  "n_features": 22,
+  "features": [
+    "polymer type",
+    "additives",
+    "particle size (mm)",
+    "MP dose (g/L)",
+    "pretreatment type",
+    "duration (h)",
+    "mixing speed (rpm)",
+    "pretreatment temperature (°C)",
+    "chemical dose (mg/L)",
+    "UV dose (J/cm2)",
+    "sample phase",
+    "DOC (mg/L C)",
+    "pH",
+    "buffer",
+    "buffer conc. (mM)",
+    "bromide added/leached (mg/L)",
+    "disinfectant",
+    "disinfectant dose (mg/L as Cl2)",
+    "contact time (h)",
+    "disinfection temperature (°C)",
+    "quenching agent",
+    "DBP name"
+  ],
+  "cv": {
+    "r2": 0.8797972123647939,
+    "rmse": 0.4957734896703951,
+    "mae": 0.33375654267306437
+  },
+  "test": {
+    "r2": 0.8262972474345869,
+    "rmse": 0.5742917564890773,
+    "mae": 0.32441448289217567
+  },
+  "folds": [
+    {
+      "r2": 0.8760260982941587,
+      "rmse": 0.5105645934931995,
+      "mae": 0.34602144892123243
+    },
+    {
+      "r2": 0.8829547961557008,
+      "rmse": 0.4758907686877598,
+      "mae": 0.33274048201517004
+    },
+    {
+      "r2": 0.8328048950997671,
+      "rmse": 0.5645421211656934,
+      "mae": 0.3404232019525079
+    },
+    {
+      "r2": 0.8841969859664526,
+      "rmse": 0.48938736854410375,
+      "mae": 0.3405473451171036
+    },
+    {
+      "r2": 0.913713584304051,
+      "rmse": 0.4284865626690304,
+      "mae": 0.3090502353593079
+    }
+  ],
+  "target_cv_r2": 0.8798,
+  "target_test_r2": 0.8263,
+  "delta_cv_r2": -2.7876352061140253e-06,
+  "delta_test_r2": -2.7525654131554944e-06,
+  "params": {
+    "C": 78.3645526513463,
+    "epsilon": 0.05617101982934737,
+    "gamma": 0.0431392384084347
+  },
+  "runtime_sec": 1.12
+}

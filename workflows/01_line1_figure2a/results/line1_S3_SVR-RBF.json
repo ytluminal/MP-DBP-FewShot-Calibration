@@ -1,0 +1,109 @@
+{
+  "stage": "S3",
+  "model": "SVR-RBF",
+  "n_features": 55,
+  "features": [
+    "polymer type",
+    "additives",
+    "particle size (mm)",
+    "MP dose (g/L)",
+    "pretreatment type",
+    "duration (h)",
+    "mixing speed (rpm)",
+    "pretreatment temperature (°C)",
+    "chemical dose (mg/L)",
+    "UV dose (J/cm2)",
+    "sample phase",
+    "DOC (mg/L C)",
+    "pH",
+    "buffer",
+    "buffer conc. (mM)",
+    "bromide added/leached (mg/L)",
+    "disinfectant",
+    "disinfectant dose (mg/L as Cl2)",
+    "contact time (h)",
+    "disinfection temperature (°C)",
+    "quenching agent",
+    "DBP name",
+    "MW",
+    "C_count",
+    "N_count",
+    "O_count",
+    "Cl_count",
+    "Br_count",
+    "Total_halogen",
+    "Br_fraction",
+    "Halogen_C_ratio",
+    "logP",
+    "TPSA",
+    "HBA",
+    "HBD",
+    "Molar_refractivity",
+    "Molecular_volume",
+    "HOMO",
+    "LUMO",
+    "HOMO-LUMO Gap",
+    "Dipole Moment",
+    "Ionization Potential",
+    "Electron Affinity",
+    "Chemical Potential",
+    "Electronegativity",
+    "Chemical Hardness",
+    "Softness",
+    "Electrophilicity",
+    "Polymer aromatic structure",
+    "Polymer carbonyl group",
+    "Polymer backbone ester",
+    "Polymer amide/urethane N",
+    "Polymer nitrile N",
+    "Polymer covalent halogen",
+    "Polymer copolymer/segmented/composite"
+  ],
+  "cv": {
+    "r2": 0.8807190471709276,
+    "rmse": 0.49386878817607455,
+    "mae": 0.3219139737053582
+  },
+  "test": {
+    "r2": 0.8101717357183992,
+    "rmse": 0.6003571267927774,
+    "mae": 0.33152820778422537
+  },
+  "folds": [
+    {
+      "r2": 0.8915013674435518,
+      "rmse": 0.47763670285890875,
+      "mae": 0.343072185655534
+    },
+    {
+      "r2": 0.8968330038375903,
+      "rmse": 0.44678734362162004,
+      "mae": 0.31626325628363244
+    },
+    {
+      "r2": 0.8525591403916839,
+      "rmse": 0.530143570555964,
+      "mae": 0.3208585525791819
+    },
+    {
+      "r2": 0.8820318485767321,
+      "rmse": 0.4939411530192329,
+      "mae": 0.31330755737429455
+    },
+    {
+      "r2": 0.8746379564773012,
+      "rmse": 0.5164746666452611,
+      "mae": 0.31606831663414797
+    }
+  ],
+  "target_cv_r2": 0.8807,
+  "target_test_r2": 0.8101,
+  "delta_cv_r2": 1.9047170927599666e-05,
+  "delta_test_r2": 7.173571839913517e-05,
+  "params": {
+    "C": 226.11277484216907,
+    "epsilon": 0.052412492469052004,
+    "gamma": 0.036363829416398326
+  },
+  "runtime_sec": 1.15
+}

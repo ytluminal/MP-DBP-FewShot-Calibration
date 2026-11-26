@@ -1,0 +1,15 @@
+ZIP CONTENTS / USE IN NEW CHAT
+1. START_HERE.md — direct instructions and a ready-to-paste prompt
+2. METHOD_FULL_CN.md — full scientific protocol in Chinese
+3. Active_FewShot_Centroid_Maximin_Protocol_CN.docx — formatted Word version
+4. run_active_fewshot.py — source-verified executable implementation
+5. inputs/line2/ — 995 Training, 249 Test, 8 frozen NPZ prediction files,
+   500 original random permutations and original per-ref budget counts
+6. inputs/line3/ — 1026 Training, 218 Test, 40 frozen prediction sets in CSV,
+   500 original random permutations and original per-ref budget counts
+7. INPUT_SHA256.json — input SHA-256 hashes
+8. requirements.txt — dependencies
+9. smoke_test/ — small verified example output from 3/500 random replicates
+10. SMOKE_TEST_VERIFIED.txt — exactly what was tested
+
+DO NOT unilaterally replace datasets, rerun model fitting, or change acquisition.

@@ -1,0 +1,79 @@
+{
+  "stage": "S3",
+  "model": "Elastic Net",
+  "n_features": 26,
+  "features": [
+    "polymer type",
+    "additives",
+    "particle size (mm)",
+    "MP dose (g/L)",
+    "pretreatment type",
+    "duration (h)",
+    "mixing speed (rpm)",
+    "chemical dose (mg/L)",
+    "buffer",
+    "bromide added/leached (mg/L)",
+    "disinfectant",
+    "disinfectant dose (mg/L as Cl2)",
+    "contact time (h)",
+    "quenching agent",
+    "DBP name",
+    "C_count",
+    "O_count",
+    "logP",
+    "TPSA",
+    "HBD",
+    "HOMO-LUMO Gap",
+    "Dipole Moment",
+    "Chemical Potential",
+    "Softness",
+    "Electrophilicity",
+    "Polymer copolymer/segmented/composite"
+  ],
+  "cv": {
+    "r2": 0.6677804463847279,
+    "rmse": 0.8242114160195714,
+    "mae": 0.6102105870297225
+  },
+  "test": {
+    "r2": 0.5979399619704042,
+    "rmse": 0.8737248479056839,
+    "mae": 0.6376592503455167
+  },
+  "folds": [
+    {
+      "r2": 0.6952548330003658,
+      "rmse": 0.8004864276539417,
+      "mae": 0.5985702344580109
+    },
+    {
+      "r2": 0.6252781627557171,
+      "rmse": 0.8515006241700687,
+      "mae": 0.6479563131130508
+    },
+    {
+      "r2": 0.6465530917880973,
+      "rmse": 0.8208176096852038,
+      "mae": 0.607596367355056
+    },
+    {
+      "r2": 0.6536335386174789,
+      "rmse": 0.8463709341749316,
+      "mae": 0.602199889015745
+    },
+    {
+      "r2": 0.6988892708470616,
+      "rmse": 0.8004405980953686,
+      "mae": 0.5947301312067498
+    }
+  ],
+  "target_cv_r2": 0.6678,
+  "target_test_r2": 0.5979,
+  "delta_cv_r2": -1.955361527206101e-05,
+  "delta_test_r2": 3.9961970404234215e-05,
+  "params": {
+    "alpha": 0.0011789424397147285,
+    "l1_ratio": 0.04833794796157109
+  },
+  "runtime_sec": 1.22
+}

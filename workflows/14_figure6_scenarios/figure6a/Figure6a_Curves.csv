@@ -1,0 +1,175 @@
+species,scenario,DOC_mgL_C,MP_dose_gL,baseline_training_row,disinfectant,dose_mgL_as_Cl2,predicted_concentration_ugL
+TCM,Medium precursor scenario,1.48,2.0,265,Cl2,1.0,9.765010483303069
+TCM,Medium precursor scenario,1.48,2.0,265,Cl2,1.5,9.765010483303069
+TCM,Medium precursor scenario,1.48,2.0,265,Cl2,2.0,9.767755108102097
+TCM,Medium precursor scenario,1.48,2.0,265,Cl2,2.5,10.423889760610862
+TCM,Medium precursor scenario,1.48,2.0,265,Cl2,3.0,10.075213476412976
+TCM,Medium precursor scenario,1.48,2.0,265,Cl2,3.5,16.164623352893507
+TCM,Medium precursor scenario,1.48,2.0,265,Cl2,4.0,16.540490817426242
+TCM,Medium precursor scenario,1.48,2.0,265,Cl2,4.5,16.774843141168958
+TCM,Medium precursor scenario,1.48,2.0,265,Cl2,5.0,17.018222253375477
+TCM,Medium precursor scenario,1.48,2.0,265,Cl2,5.5,17.018222253375477
+TCM,Medium precursor scenario,1.48,2.0,265,Cl2,6.0,17.018222253375477
+TCM,Medium precursor scenario,1.48,2.0,265,Cl2,6.5,19.52776916458915
+TCM,Medium precursor scenario,1.48,2.0,265,Cl2,7.0,19.203823804228232
+TCM,Medium precursor scenario,1.48,2.0,265,Cl2,7.5,19.52776916458915
+TCM,Medium precursor scenario,1.48,2.0,265,Cl2,8.0,19.926500042764964
+TCM,Medium precursor scenario,1.48,2.0,265,Cl2,8.5,19.287788147860603
+TCM,Medium precursor scenario,1.48,2.0,265,Cl2,9.0,19.751867114927542
+TCM,Medium precursor scenario,1.48,2.0,265,Cl2,9.5,19.386063725504684
+TCM,Medium precursor scenario,1.48,2.0,265,Cl2,10.0,18.230677835768674
+TCM,Medium precursor scenario,1.48,2.0,265,Cl2,10.5,18.260555030137645
+TCM,Medium precursor scenario,1.48,2.0,265,Cl2,11.0,18.260555030137645
+TCM,Medium precursor scenario,1.48,2.0,265,Cl2,11.5,18.260555030137645
+TCM,Medium precursor scenario,1.48,2.0,265,Cl2,12.0,18.569376147389878
+TCM,Medium precursor scenario,1.48,2.0,265,Cl2,12.5,18.814833963380607
+TCM,Medium precursor scenario,1.48,2.0,265,Cl2,13.0,18.260555030137645
+TCM,Medium precursor scenario,1.48,2.0,265,Cl2,13.5,20.289066059921836
+TCM,Medium precursor scenario,1.48,2.0,265,Cl2,14.0,22.501653481254063
+TCM,Medium precursor scenario,1.48,2.0,265,Cl2,14.5,22.501653481254063
+TCM,Medium precursor scenario,1.48,2.0,265,Cl2,15.0,22.769086760162978
+TCM,Medium precursor scenario,1.48,2.0,265,NH2Cl,1.0,7.34116943440941
+TCM,Medium precursor scenario,1.48,2.0,265,NH2Cl,1.5,7.34116943440941
+TCM,Medium precursor scenario,1.48,2.0,265,NH2Cl,2.0,7.34329608170976
+TCM,Medium precursor scenario,1.48,2.0,265,NH2Cl,2.5,7.587642688085699
+TCM,Medium precursor scenario,1.48,2.0,265,NH2Cl,3.0,7.448800680276388
+TCM,Medium precursor scenario,1.48,2.0,265,NH2Cl,3.5,11.90310527491809
+TCM,Medium precursor scenario,1.48,2.0,265,NH2Cl,4.0,12.204746019105777
+TCM,Medium precursor scenario,1.48,2.0,265,NH2Cl,4.5,12.381169982734866
+TCM,Medium precursor scenario,1.48,2.0,265,NH2Cl,5.0,12.547211520319221
+TCM,Medium precursor scenario,1.48,2.0,265,NH2Cl,5.5,12.547211520319221
+TCM,Medium precursor scenario,1.48,2.0,265,NH2Cl,6.0,12.547211520319221
+TCM,Medium precursor scenario,1.48,2.0,265,NH2Cl,6.5,14.160598429615064
+TCM,Medium precursor scenario,1.48,2.0,265,NH2Cl,7.0,14.190481654973777
+TCM,Medium precursor scenario,1.48,2.0,265,NH2Cl,7.5,14.160598429615064
+TCM,Medium precursor scenario,1.48,2.0,265,NH2Cl,8.0,14.484843816109805
+TCM,Medium precursor scenario,1.48,2.0,265,NH2Cl,8.5,14.234490269259856
+TCM,Medium precursor scenario,1.48,2.0,265,NH2Cl,9.0,14.355621843625812
+TCM,Medium precursor scenario,1.48,2.0,265,NH2Cl,9.5,14.173171057874955
+TCM,Medium precursor scenario,1.48,2.0,265,NH2Cl,10.0,13.577265476604433
+TCM,Medium precursor scenario,1.48,2.0,265,NH2Cl,10.5,13.629498743499381
+TCM,Medium precursor scenario,1.48,2.0,265,NH2Cl,11.0,13.629498743499381
+TCM,Medium precursor scenario,1.48,2.0,265,NH2Cl,11.5,13.629498743499381
+TCM,Medium precursor scenario,1.48,2.0,265,NH2Cl,12.0,13.60071910255272
+TCM,Medium precursor scenario,1.48,2.0,265,NH2Cl,12.5,13.83091990916704
+TCM,Medium precursor scenario,1.48,2.0,265,NH2Cl,13.0,13.629498743499381
+TCM,Medium precursor scenario,1.48,2.0,265,NH2Cl,13.5,15.087531439157626
+TCM,Medium precursor scenario,1.48,2.0,265,NH2Cl,14.0,16.759519754773606
+TCM,Medium precursor scenario,1.48,2.0,265,NH2Cl,14.5,16.759519754773606
+TCM,Medium precursor scenario,1.48,2.0,265,NH2Cl,15.0,16.93206992539318
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,Cl2,1.0,6.275979366806268
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,Cl2,1.5,6.275979366806268
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,Cl2,2.0,6.2726969705811655
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,Cl2,2.5,6.697428355567062
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,Cl2,3.0,6.725536915007926
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,Cl2,3.5,8.805439671835853
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,Cl2,4.0,9.423085062864873
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,Cl2,4.5,9.469470685693206
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,Cl2,5.0,9.614825183374256
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,Cl2,5.5,9.614825183374256
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,Cl2,6.0,9.614825183374256
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,Cl2,6.5,9.771264615639632
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,Cl2,7.0,9.771264615639632
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,Cl2,7.5,9.771264615639632
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,Cl2,8.0,9.844003176274093
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,Cl2,8.5,9.844003176274093
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,Cl2,9.0,9.776679205980415
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,Cl2,9.5,9.3981118075144
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,Cl2,10.0,8.596933010261735
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,Cl2,10.5,8.840712636890583
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,Cl2,11.0,8.840712636890583
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,Cl2,11.5,8.840712636890583
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,Cl2,12.0,8.840712636890583
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,Cl2,12.5,8.840712636890583
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,Cl2,13.0,8.840712636890583
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,Cl2,13.5,9.032218868152016
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,Cl2,14.0,9.032218868152016
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,Cl2,14.5,9.032218868152016
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,Cl2,15.0,9.025433558905686
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,NH2Cl,1.0,4.311570677801915
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,NH2Cl,1.5,4.311570677801915
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,NH2Cl,2.0,4.309174480855326
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,NH2Cl,2.5,4.5169186796314635
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,NH2Cl,3.0,4.537064711458406
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,NH2Cl,3.5,6.026288160203956
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,NH2Cl,4.0,6.427032407178843
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,NH2Cl,4.5,6.4600847637407774
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,NH2Cl,5.0,6.5124815597011905
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,NH2Cl,5.5,6.5124815597011905
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,NH2Cl,6.0,6.5124815597011905
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,NH2Cl,6.5,6.606938733584711
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,NH2Cl,7.0,6.606938733584711
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,NH2Cl,7.5,6.606938733584711
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,NH2Cl,8.0,6.62308796234701
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,NH2Cl,8.5,6.62308796234701
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,NH2Cl,9.0,6.575760740178172
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,NH2Cl,9.5,6.240258801453093
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,NH2Cl,10.0,5.653734750321382
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,NH2Cl,10.5,5.825440885642455
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,NH2Cl,11.0,5.825440885642455
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,NH2Cl,11.5,5.825440885642455
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,NH2Cl,12.0,5.825440885642455
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,NH2Cl,12.5,5.825440885642455
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,NH2Cl,13.0,5.825440885642455
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,NH2Cl,13.5,5.961027247885881
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,NH2Cl,14.0,5.961027247885881
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,NH2Cl,14.5,5.961027247885881
+DCAA,Medium precursor scenario,1.64084096602037,0.5,558,NH2Cl,15.0,5.975913748671985
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,Cl2,1.0,4.785468269812692
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,Cl2,1.5,4.86648599071739
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,Cl2,2.0,4.844167833964672
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,Cl2,2.5,5.132816336162309
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,Cl2,3.0,4.960051883860058
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,Cl2,3.5,4.983633984900687
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,Cl2,4.0,5.3718623909832
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,Cl2,4.5,5.2791718759311275
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,Cl2,5.0,5.371957467820183
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,Cl2,5.5,5.257246949671113
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,Cl2,6.0,5.210249337602861
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,Cl2,6.5,5.407785674478079
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,Cl2,7.0,5.292430162671907
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,Cl2,7.5,5.451227109673443
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,Cl2,8.0,5.389311448085882
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,Cl2,8.5,5.552247598918832
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,Cl2,9.0,5.368987852285908
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,Cl2,9.5,5.150259044959477
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,Cl2,10.0,4.525169722911503
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,Cl2,10.5,4.500884901965613
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,Cl2,11.0,4.46242957283536
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,Cl2,11.5,4.537160046313986
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,Cl2,12.0,4.620395993732465
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,Cl2,12.5,4.624975029515802
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,Cl2,13.0,4.45798285789943
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,Cl2,13.5,4.455968621515525
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,Cl2,14.0,4.455968621515525
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,Cl2,14.5,4.455968621515525
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,Cl2,15.0,4.587853008405297
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,NH2Cl,1.0,3.8040379897340886
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,NH2Cl,1.5,3.866638963414445
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,NH2Cl,2.0,3.861371890565338
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,NH2Cl,2.5,4.063696806398073
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,NH2Cl,3.0,3.953484690580114
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,NH2Cl,3.5,3.982683815520288
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,NH2Cl,4.0,4.289080451722695
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,NH2Cl,4.5,4.187908245384461
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,NH2Cl,5.0,4.277433631137177
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,NH2Cl,5.5,4.167103403021926
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,NH2Cl,6.0,4.128293759866556
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,NH2Cl,6.5,4.317617528331918
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,NH2Cl,7.0,4.206447214134319
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,NH2Cl,7.5,4.335335563342048
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,NH2Cl,8.0,4.266752372096134
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,NH2Cl,8.5,4.38989788212561
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,NH2Cl,9.0,4.2971166205282065
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,NH2Cl,9.5,4.143279706071321
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,NH2Cl,10.0,3.6705285391854567
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,NH2Cl,10.5,3.7206532545357454
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,NH2Cl,11.0,3.7177723050639764
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,NH2Cl,11.5,3.6938531305980358
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,NH2Cl,12.0,3.794078314080038
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,NH2Cl,12.5,3.7979841342700724
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,NH2Cl,13.0,3.713931781668017
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,NH2Cl,13.5,3.738761564129998
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,NH2Cl,14.0,3.738761564129998
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,NH2Cl,14.5,3.738761564129998
+DCAN,Ref. 23 median-like observed baseline,0.9,4.0,768,NH2Cl,15.0,3.748983859168053

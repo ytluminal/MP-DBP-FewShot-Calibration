@@ -1,0 +1,136 @@
+{
+  "Line": 2,
+  "N_train": 995,
+  "N_test": 249,
+  "Ref_IDs": [
+    7,
+    14,
+    16,
+    21,
+    22
+  ],
+  "N_models_per_scheme_stage": 40,
+  "replicates": 3,
+  "features": {
+    "n_raw_features": 55,
+    "n_categorical": 8,
+    "n_numeric": 47,
+    "n_encoded_features": 120,
+    "feature_names": [
+      "polymer type",
+      "additives",
+      "particle size (mm)",
+      "MP dose (g/L)",
+      "pretreatment type",
+      "duration (h)",
+      "mixing speed (rpm)",
+      "pretreatment temperature (°C)",
+      "chemical dose (mg/L)",
+      "UV dose (J/cm2)",
+      "sample phase",
+      "DOC (mg/L C)",
+      "pH",
+      "buffer",
+      "buffer conc. (mM)",
+      "bromide added/leached (mg/L)",
+      "disinfectant",
+      "disinfectant dose (mg/L as Cl2)",
+      "contact time (h)",
+      "disinfection temperature (°C)",
+      "quenching agent",
+      "DBP name",
+      "MW",
+      "C_count",
+      "N_count",
+      "O_count",
+      "Cl_count",
+      "Br_count",
+      "Total_halogen",
+      "Br_fraction",
+      "Halogen_C_ratio",
+      "logP",
+      "TPSA",
+      "HBA",
+      "HBD",
+      "Molar_refractivity",
+      "Molecular_volume",
+      "HOMO",
+      "LUMO",
+      "HOMO-LUMO Gap",
+      "Dipole Moment",
+      "Ionization Potential",
+      "Electron Affinity",
+      "Chemical Potential",
+      "Electronegativity",
+      "Chemical Hardness",
+      "Softness",
+      "Electrophilicity",
+      "Polymer aromatic structure",
+      "Polymer carbonyl group",
+      "Polymer backbone ester",
+      "Polymer amide/urethane N",
+      "Polymer nitrile N",
+      "Polymer covalent halogen",
+      "Polymer copolymer/segmented/composite"
+    ],
+    "categorical_names": [
+      "polymer type",
+      "additives",
+      "pretreatment type",
+      "sample phase",
+      "buffer",
+      "disinfectant",
+      "quenching agent",
+      "DBP name"
+    ],
+    "selection_feature_rule": "All 55 raw predictors, same for all model/stage/protocol configs",
+    "encoder_rule": "Numeric median+StandardScaler, categorical most frequent+OneHotEncoder; fit training only"
+  },
+  "budgets_percent": [
+    2.5,
+    5.0,
+    10.0,
+    20.0
+  ],
+  "sampling_counts_by_ref": {
+    "7": {
+      "2.5": 3,
+      "5.0": 6,
+      "10.0": 11,
+      "20.0": 22
+    },
+    "14": {
+      "2.5": 2,
+      "5.0": 4,
+      "10.0": 8,
+      "20.0": 15
+    },
+    "16": {
+      "2.5": 2,
+      "5.0": 3,
+      "10.0": 5,
+      "20.0": 9
+    },
+    "21": {
+      "2.5": 1,
+      "5.0": 1,
+      "10.0": 2,
+      "20.0": 3
+    },
+    "22": {
+      "2.5": 1,
+      "5.0": 1,
+      "10.0": 2,
+      "20.0": 4
+    }
+  },
+  "matched_eval_definition": "Test rows not in union(Active sampled rows, Random sampled rows) for each ref/replicate",
+  "target": "ln(1 + DBP concentration in µg/L)",
+  "strict_training_test": "No model retraining or refitting; Test outcomes used only after sample selection to estimate each ref offset",
+  "output_rows": {
+    "active_own": 160,
+    "replicate_matched": 480,
+    "perpub_replicate_matched": 2400
+  },
+  "N_encoded_features": 120
+}

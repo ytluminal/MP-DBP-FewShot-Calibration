@@ -1,0 +1,19 @@
+{
+  "figure": "Figure5c_AllDBPs_MPloading_ParticleSize_SHAP_NoMissingDose",
+  "derived_from": "Figure5c_AllDBPs_MPloading_ParticleSize_SHAP",
+  "user_requested_change": "remove the 4 points with missing disinfectant dose and delete the corresponding annotation box",
+  "included_observations": 829,
+  "removed_missing_dose_n": 4,
+  "included_refs": 19,
+  "included_dbps": 35,
+  "cl2_n": 636,
+  "nh2cl_n": 193,
+  "particle_size_um_min": 5.0,
+  "particle_size_um_max": 5000.0,
+  "loading_gL_min": 0.05,
+  "loading_gL_max": 10.0,
+  "shap_min": -0.328262419171,
+  "shap_median": -0.0226679221486,
+  "shap_max": 0.39417159108,
+  "png_dpi": 600
+}

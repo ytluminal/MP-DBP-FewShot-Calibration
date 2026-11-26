@@ -1,0 +1,362 @@
+[
+  {
+    "Stage": 1,
+    "CV_Type": "Publication-grouped",
+    "Model": "RF",
+    "R2": 0.1828058871899627,
+    "RMSE": 1.2941779811803313,
+    "MAE": 1.0784533177932367,
+    "n": 1026
+  },
+  {
+    "Stage": 1,
+    "CV_Type": "Publication-grouped",
+    "Model": "XGBoost",
+    "R2": 0.2955984348775904,
+    "RMSE": 1.2015491708367148,
+    "MAE": 0.9878305792266459,
+    "n": 1026
+  },
+  {
+    "Stage": 1,
+    "CV_Type": "Publication-grouped",
+    "Model": "LightGBM",
+    "R2": 0.23771678345928093,
+    "RMSE": 1.2499411642029428,
+    "MAE": 1.0230582097928855,
+    "n": 1026
+  },
+  {
+    "Stage": 1,
+    "CV_Type": "Publication-grouped",
+    "Model": "CatBoost",
+    "R2": 0.23864329224171754,
+    "RMSE": 1.2491813196009633,
+    "MAE": 1.0396212024962896,
+    "n": 1026
+  },
+  {
+    "Stage": 1,
+    "CV_Type": "Publication-grouped",
+    "Model": "Equal4",
+    "R2": 0.27488965488297534,
+    "RMSE": 1.219083470037521,
+    "MAE": 1.0163507356265489,
+    "n": 1026
+  },
+  {
+    "Stage": 1,
+    "CV_Type": "Conventional random",
+    "Model": "RF",
+    "R2": 0.8158601244840115,
+    "RMSE": 0.6143350789780949,
+    "MAE": 0.4424323711621531,
+    "n": 1026
+  },
+  {
+    "Stage": 1,
+    "CV_Type": "Conventional random",
+    "Model": "XGBoost",
+    "R2": 0.8217673211014574,
+    "RMSE": 0.6044008400908967,
+    "MAE": 0.4288651346939858,
+    "n": 1026
+  },
+  {
+    "Stage": 1,
+    "CV_Type": "Conventional random",
+    "Model": "LightGBM",
+    "R2": 0.829560269836193,
+    "RMSE": 0.5910399144923845,
+    "MAE": 0.4179204624896042,
+    "n": 1026
+  },
+  {
+    "Stage": 1,
+    "CV_Type": "Conventional random",
+    "Model": "CatBoost",
+    "R2": 0.8134079035307535,
+    "RMSE": 0.6184121506647619,
+    "MAE": 0.44415202231835854,
+    "n": 1026
+  },
+  {
+    "Stage": 1,
+    "CV_Type": "Conventional random",
+    "Model": "Equal4",
+    "R2": 0.8360418748263041,
+    "RMSE": 0.5796927431990317,
+    "MAE": 0.4177797923496808,
+    "n": 1026
+  },
+  {
+    "Stage": 2,
+    "CV_Type": "Publication-grouped",
+    "Model": "RF",
+    "R2": 0.29955066974869826,
+    "RMSE": 1.1981736215530654,
+    "MAE": 0.9792824104528888,
+    "n": 1026
+  },
+  {
+    "Stage": 2,
+    "CV_Type": "Publication-grouped",
+    "Model": "XGBoost",
+    "R2": 0.33740310667411866,
+    "RMSE": 1.1653492194098467,
+    "MAE": 0.9343016159950172,
+    "n": 1026
+  },
+  {
+    "Stage": 2,
+    "CV_Type": "Publication-grouped",
+    "Model": "LightGBM",
+    "R2": 0.292271236269382,
+    "RMSE": 1.2043835505495528,
+    "MAE": 0.9492815670669886,
+    "n": 1026
+  },
+  {
+    "Stage": 2,
+    "CV_Type": "Publication-grouped",
+    "Model": "CatBoost",
+    "R2": 0.3117303317937532,
+    "RMSE": 1.187710804792421,
+    "MAE": 0.9492865886316656,
+    "n": 1026
+  },
+  {
+    "Stage": 2,
+    "CV_Type": "Publication-grouped",
+    "Model": "Equal4",
+    "R2": 0.33879956283240587,
+    "RMSE": 1.1641205557605392,
+    "MAE": 0.9406323684468471,
+    "n": 1026
+  },
+  {
+    "Stage": 2,
+    "CV_Type": "Conventional random",
+    "Model": "RF",
+    "R2": 0.8569808968115118,
+    "RMSE": 0.5414126729490837,
+    "MAE": 0.3527914716759895,
+    "n": 1026
+  },
+  {
+    "Stage": 2,
+    "CV_Type": "Conventional random",
+    "Model": "XGBoost",
+    "R2": 0.8203280930921238,
+    "RMSE": 0.6068362005071528,
+    "MAE": 0.4067028054396229,
+    "n": 1026
+  },
+  {
+    "Stage": 2,
+    "CV_Type": "Conventional random",
+    "Model": "LightGBM",
+    "R2": 0.8663209223613985,
+    "RMSE": 0.5234354258318124,
+    "MAE": 0.3518109808398214,
+    "n": 1026
+  },
+  {
+    "Stage": 2,
+    "CV_Type": "Conventional random",
+    "Model": "CatBoost",
+    "R2": 0.8515906098941561,
+    "RMSE": 0.5515210363233997,
+    "MAE": 0.3736292460104272,
+    "n": 1026
+  },
+  {
+    "Stage": 2,
+    "CV_Type": "Conventional random",
+    "Model": "Equal4",
+    "R2": 0.8639727909285159,
+    "RMSE": 0.5280125993481048,
+    "MAE": 0.353280345654311,
+    "n": 1026
+  },
+  {
+    "Stage": 3,
+    "CV_Type": "Publication-grouped",
+    "Model": "RF",
+    "R2": 0.3011309980340996,
+    "RMSE": 1.196821220454643,
+    "MAE": 0.9761103943953365,
+    "n": 1026
+  },
+  {
+    "Stage": 3,
+    "CV_Type": "Publication-grouped",
+    "Model": "XGBoost",
+    "R2": 0.2912888837403528,
+    "RMSE": 1.2052191241589703,
+    "MAE": 0.9115969512892774,
+    "n": 1026
+  },
+  {
+    "Stage": 3,
+    "CV_Type": "Publication-grouped",
+    "Model": "LightGBM",
+    "R2": 0.2544812239052038,
+    "RMSE": 1.2361201468807437,
+    "MAE": 0.9838542727827124,
+    "n": 1026
+  },
+  {
+    "Stage": 3,
+    "CV_Type": "Publication-grouped",
+    "Model": "CatBoost",
+    "R2": 0.3780405774555524,
+    "RMSE": 1.1290480312016538,
+    "MAE": 0.8578978399902049,
+    "n": 1026
+  },
+  {
+    "Stage": 3,
+    "CV_Type": "Publication-grouped",
+    "Model": "Equal4",
+    "R2": 0.34279978348147544,
+    "RMSE": 1.1605937857726407,
+    "MAE": 0.9136722980578497,
+    "n": 1026
+  },
+  {
+    "Stage": 3,
+    "CV_Type": "Conventional random",
+    "Model": "RF",
+    "R2": 0.8581570689264896,
+    "RMSE": 0.5391818201599862,
+    "MAE": 0.3519902021538715,
+    "n": 1026
+  },
+  {
+    "Stage": 3,
+    "CV_Type": "Conventional random",
+    "Model": "XGBoost",
+    "R2": 0.8117812864899179,
+    "RMSE": 0.6211018063051524,
+    "MAE": 0.40678156068798477,
+    "n": 1026
+  },
+  {
+    "Stage": 3,
+    "CV_Type": "Conventional random",
+    "Model": "LightGBM",
+    "R2": 0.873209342210252,
+    "RMSE": 0.5097708754193393,
+    "MAE": 0.34490221354532946,
+    "n": 1026
+  },
+  {
+    "Stage": 3,
+    "CV_Type": "Conventional random",
+    "Model": "CatBoost",
+    "R2": 0.8270095637208161,
+    "RMSE": 0.5954460778247189,
+    "MAE": 0.38703744679083474,
+    "n": 1026
+  },
+  {
+    "Stage": 3,
+    "CV_Type": "Conventional random",
+    "Model": "Equal4",
+    "R2": 0.8596075378641039,
+    "RMSE": 0.5364179316323996,
+    "MAE": 0.3528026259174711,
+    "n": 1026
+  },
+  {
+    "Stage": 4,
+    "CV_Type": "Publication-grouped",
+    "Model": "RF",
+    "R2": 0.36636251963706934,
+    "RMSE": 1.1395983745528893,
+    "MAE": 0.911882780420955,
+    "n": 1026
+  },
+  {
+    "Stage": 4,
+    "CV_Type": "Publication-grouped",
+    "Model": "XGBoost",
+    "R2": 0.33000662091977107,
+    "RMSE": 1.1718354916432907,
+    "MAE": 0.8707802246683534,
+    "n": 1026
+  },
+  {
+    "Stage": 4,
+    "CV_Type": "Publication-grouped",
+    "Model": "LightGBM",
+    "R2": 0.43199981396148457,
+    "RMSE": 1.078960711604333,
+    "MAE": 0.8304699741167464,
+    "n": 1026
+  },
+  {
+    "Stage": 4,
+    "CV_Type": "Publication-grouped",
+    "Model": "CatBoost",
+    "R2": 0.39524199335097276,
+    "RMSE": 1.1133256255406079,
+    "MAE": 0.832474313712087,
+    "n": 1026
+  },
+  {
+    "Stage": 4,
+    "CV_Type": "Publication-grouped",
+    "Model": "Equal4",
+    "R2": 0.42182733601212763,
+    "RMSE": 1.088579544257318,
+    "MAE": 0.8309604053383426,
+    "n": 1026
+  },
+  {
+    "Stage": 4,
+    "CV_Type": "Conventional random",
+    "Model": "RF",
+    "R2": 0.8420017828126489,
+    "RMSE": 0.5690592474512489,
+    "MAE": 0.3817349242876379,
+    "n": 1026
+  },
+  {
+    "Stage": 4,
+    "CV_Type": "Conventional random",
+    "Model": "XGBoost",
+    "R2": 0.76720570536301,
+    "RMSE": 0.690744694920815,
+    "MAE": 0.4471072947675192,
+    "n": 1026
+  },
+  {
+    "Stage": 4,
+    "CV_Type": "Conventional random",
+    "Model": "LightGBM",
+    "R2": 0.8599171178023195,
+    "RMSE": 0.5358261766482229,
+    "MAE": 0.36737821152484823,
+    "n": 1026
+  },
+  {
+    "Stage": 4,
+    "CV_Type": "Conventional random",
+    "Model": "CatBoost",
+    "R2": 0.8254700768489802,
+    "RMSE": 0.5980897239632449,
+    "MAE": 0.3880721253014409,
+    "n": 1026
+  },
+  {
+    "Stage": 4,
+    "CV_Type": "Conventional random",
+    "Model": "Equal4",
+    "R2": 0.8453090126325294,
+    "RMSE": 0.5630719560109452,
+    "MAE": 0.3730136213390065,
+    "n": 1026
+  }
+]

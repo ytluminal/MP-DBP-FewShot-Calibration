@@ -1,0 +1,6 @@
+{
+  "configurations": 10,
+  "passed": 10,
+  "maximum_absolute_prediction_difference": 1.3322676295501878e-15,
+  "output_file": "/mnt/data/Line3_Figure2c_Full_Reproducibility_20261015/refitted_components/FULL_ALL_MODELS_AUDIT.csv"
+}

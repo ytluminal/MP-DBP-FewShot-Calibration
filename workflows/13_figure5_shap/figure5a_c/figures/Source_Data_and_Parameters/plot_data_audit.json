@@ -1,0 +1,18 @@
+{
+  "b": {
+    "n": 739,
+    "changed_predictions_gt_1e-8": 10,
+    "changed_SHAP_gt_1e-8": 13,
+    "max_SHAP_change": 0.009034566442986641,
+    "max_trend_median_change": 0.00018946870898814416,
+    "original_trend_bin_membership_verified": true
+  },
+  "c": {
+    "n": 829,
+    "changed_predictions_gt_1e-8": 27,
+    "changed_SHAP_gt_1e-8": 27,
+    "max_SHAP_change": 0.0016181950337968987,
+    "max_trend_median_change": 0.0016181950334245576,
+    "original_trend_bin_membership_verified": true
+  }
+}

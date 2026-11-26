@@ -1,0 +1,76 @@
+{
+  "title": "Figure 4 — Line3 LightGBM, Ref28–30, random and stage-matched active few-shot",
+  "n": 64,
+  "publications": {
+    "28": 12,
+    "29": 12,
+    "30": 40
+  },
+  "scheme": [
+    "Grouped",
+    "Random"
+  ],
+  "stages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "budgets_percent": [
+    2.5,
+    5.0,
+    10.0,
+    20.0
+  ],
+  "repeat_count_random": 500,
+  "target": "ln(1 + DBP concentration [µg/L])",
+  "model": "Frozen 5-fold-averaged Line 3 LightGBM external prediction; no retraining",
+  "random_sampling": "Original Line 1 500 random permutations, shared across Stage 1–4 and both CV schemes",
+  "active_sampling": "Centroid first, greedy Maximin thereafter, using stage-matched descriptors and train-only preprocessing; label blind",
+  "selection_features": {
+    "1": 22,
+    "2": 55,
+    "3": 55,
+    "4": 14
+  },
+  "mean_offset": "mean(y_true_ln1p - zero_shot_ln1p) within target publication on selected shots",
+  "comparators": "Random own remainder vs zero, Active own remainder vs zero; fair Active-vs-Random vs zero on common remainder excluding both calibration sets",
+  "data_quality": "Ref30 similarity to original Ref27 requires source-identity confirmation before claim of publication independent external validation",
+  "calibration_k": {
+    "2.5": {
+      "28": 1,
+      "29": 1,
+      "30": 1
+    },
+    "5.0": {
+      "28": 1,
+      "29": 1,
+      "30": 2
+    },
+    "10.0": {
+      "28": 2,
+      "29": 2,
+      "30": 4
+    },
+    "20.0": {
+      "28": 3,
+      "29": 3,
+      "30": 8
+    }
+  },
+  "file_checksums_sha256": {
+    "ZeroShot_Baseline.csv": "db8699e65f012c4c10949d1a77197d64930780f9d75a57e868700edd54e2da80",
+    "Feature_Manifest.csv": "f11f98b1fb37fbc0c1c158846c36d717510e951b2f352d23626611418bfda4c6",
+    "Active_Complete_Sequences.csv": "c3f678cf0d61f392766f735dc57012fbcdc86ec1f54d07de0ecbcaabe31e3329",
+    "Active_Budget_Selections.csv": "5c382c287cdd59dc886a51f8a23cecae6938764873cb96322c6aa1e620fc562c",
+    "Active_Offsets.csv": "e88358a5e20a5eaf68cd9a7822a35e9911512d6d041257c9f081d41a686e95a5",
+    "Random_Own_Replicates.csv": "d93e4bd480ae43ffc79a880ce2609e58518a57a4d00ed167547e26da6fcb60ba",
+    "Random_Own_Summary.csv": "1042a6bda1d5aa09f1f5ba88a3d40ed6f50f95016195361e642308a895194dfa",
+    "Active_Own_Overall.csv": "bc7af524fee5ae9c13151bdbf79bffaac89bbe9f75e7899fd85d194c078dab9a",
+    "Active_Own_Publications.csv": "4295a118cbe931f536d442d604a09903b2da192e8434cc9be964a2b0d76c4a33",
+    "Matched_Overall_Replicates.csv": "5e76adb0101a629e9cfff23c97fda3dc7698adb34e2b9c7b5b30836522cd0ec6",
+    "Matched_Publication_Replicates.csv": "edbdde1586a9229de59bf7b4ff7570dad43cdc65c2edc0b9fe541d3bb229af01",
+    "Matched_Overall_Summary.csv": "f4920885eec331ffe333d3fe6a795560aff51e891c7f932bd055a3a447b33e6c",
+    "Matched_Publication_Summary.csv": "bb59b2e6d8648acf2b3143de84782a7023243cb8d9b5428ec580bd26c6038911"
+  }
+}

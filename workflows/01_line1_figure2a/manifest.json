@@ -1,0 +1,816 @@
+{
+  "description": "Self-contained Line 1 / Figure 2a replay archive, frozen hyperparameter refitting, not full search/RFE rerun",
+  "created_date": "2026-10-26",
+  "model_configurations": 18,
+  "model_json_count": 18,
+  "model_npz_count": 18,
+  "original_source_pdfs": 25,
+  "data_files_verified_against_SI_sha256": true,
+  "audited_software": {
+    "Python": "3.13.5",
+    "NumPy": "2.3.5",
+    "SciPy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "XGBoost": "3.1.3",
+    "LightGBM": "4.6.0",
+    "CatBoost": "1.2.8",
+    "pandas": "2.2.3",
+    "Optuna": "4.8.0"
+  },
+  "files": {
+    "README.md": {
+      "sha256": "0536bd2c5cf2ca50dbcc87c71a91ebc86f17581afbb97755b40b5e8092c35567",
+      "size_bytes": 6440
+    },
+    "__pycache__/predict_saved_model.cpython-313.pyc": {
+      "sha256": "f0ebd25763a2c94a92db8c4de9f07fa61012233098131bab1cbe3a002bf9d700",
+      "size_bytes": 2584
+    },
+    "__pycache__/reproduce_line1.cpython-313.pyc": {
+      "sha256": "6b9a839446bd968e4e6267d34b2a806a44018b5d6231b4dc34c0d60cc1a7e5c7",
+      "size_bytes": 15453
+    },
+    "__pycache__/save_trained_models.cpython-313.pyc": {
+      "sha256": "492ab54aeec376b5be16b04a57d3b975a54e2419803caf14d99134b353c25f7a",
+      "size_bytes": 13654
+    },
+    "code_original/create_line1_report_original.py": {
+      "sha256": "5212ae1cea872b570359f7d11f76e89430e085d514ac4dd11ea054a11032b567",
+      "size_bytes": 9240
+    },
+    "code_original/diagnostic_test_rf_dense.py": {
+      "sha256": "6be59bc9b2a97b9355553b989598147a8529b844e8e8c73c3cb99ecc6ceef201",
+      "size_bytes": 282
+    },
+    "code_original/diagnostic_test_rf_variants.py": {
+      "sha256": "dcaf77a44e673f8417bec0bb5fd0efd7fd6814471f62a393f867db856ecff055",
+      "size_bytes": 1967
+    },
+    "code_original/inspect_line1_original.py": {
+      "sha256": "e1bac20e835358c8fb5dff06e32fa5f5c15bcfebaf0ca334cc0a74ee92d8aba2",
+      "size_bytes": 672
+    },
+    "code_original/reproduce_line1_original.py": {
+      "sha256": "b987972e6cf82d369a011e1e718ec9442ea5e274d549f7e2d066388ea549ed1a",
+      "size_bytes": 9110
+    },
+    "data/Conventional_RandomSplit_Stage1_Test_22features(3).xlsx": {
+      "sha256": "20d0cb03f75c506f257fcefd9a0624993b46ad487611a127ac5b2d7378ee02e4",
+      "size_bytes": 31368
+    },
+    "data/Conventional_RandomSplit_Stage1_Training_22features(3).xlsx": {
+      "sha256": "d9796d67314eef25f761eccf46a613b89391ec473c290b7ce7a522b62f23671b",
+      "size_bytes": 111306
+    },
+    "data/Conventional_RandomSplit_Stage2_Test_55features(3).xlsx": {
+      "sha256": "f738ff2d6c73857d5652d5d64e600d136faac0a5b33f1e4d666d40479d15d2e9",
+      "size_bytes": 71436
+    },
+    "data/Conventional_RandomSplit_Stage2_Training_55features(3).xlsx": {
+      "sha256": "32e9ec4884aca2c613ba03dc8088935bd5257a0c1d2f0c3fb4dd34879f9070ee",
+      "size_bytes": 269289
+    },
+    "data/Microplastics_DBPs_Combined_Original22 features(5).xlsx": {
+      "sha256": "15eb91ec82798b4fd553efa441e8c3e11f3fca4b7d7ccfa2ea159e713daebd74",
+      "size_bytes": 120014
+    },
+    "documents/Main_Manuscript updating(20261026-205404).docx": {
+      "sha256": "4e620dfb4dd92cae6c72eecd2d7e4e09959ab10e79bd6d422332f184a2586a98",
+      "size_bytes": 5705593
+    },
+    "documents/SI_20261016.docx": {
+      "sha256": "99e2abab262420c13dfc6ef8cff30c06c248f24a9c07b62adc27fcfe5180b6e5",
+      "size_bytes": 231453
+    },
+    "figures/Figure_2a_Line1_Reproduced.png": {
+      "sha256": "b6d025c9f94d04dfc4da211f432b92201ea5780b3d7701372fb28f4f3b42902c",
+      "size_bytes": 223210
+    },
+    "figures/Figure_2a_Line1_Reproduced.svg": {
+      "sha256": "648dc86a82e81702f12be4e307cc8b5c333456c4cc1aa8e8bdea86e2f068c8c7",
+      "size_bytes": 81407
+    },
+    "literature/Ref 1 - 2026 388 Effect of oxidative treatment on the formation(1).pdf": {
+      "sha256": "b11c24621fb96aa57f3a2db96439c4538fe560193a97535c631596de6db1c865",
+      "size_bytes": 7060172
+    },
+    "literature/Ref 10 - 2026 14 Pre-oxidation-driven evolution of polypropylene microplastics(2).pdf": {
+      "sha256": "27f468c2c27f35612080d4fec67f622dcf5164a8782c80600f06543729209653",
+      "size_bytes": 5284526
+    },
+    "literature/Ref 11 - 2024 362 Influence of biodegradable plastics on the generation(1).pdf": {
+      "sha256": "86ee827a89ff93494fe20e86cb58a8dd3d622157f8bd2fc5420a0e231aa5b64d",
+      "size_bytes": 4026727
+    },
+    "literature/Ref 12 - 2024 341 Insight into the chemical transformation and organic release(1).pdf": {
+      "sha256": "4c36bd9803cb18928fc83d43f488361775607599dc264591c90f806762013fcd",
+      "size_bytes": 3096430
+    },
+    "literature/Ref 13 - 2024 24 Secondary risks induced by polyethylene microplastics during the disinfection(1).pdf": {
+      "sha256": "c9513e5ab2362167bb4c3bd650e7ee22cdd55d65551461cdc1da76c5c4de1541",
+      "size_bytes": 415708
+    },
+    "literature/Ref 14 - 2024 14 Insight into the dynamic transformation properties of microplastic-derived dissolved organic matter(1).pdf": {
+      "sha256": "6d48b8541d3a40013f4242d82c0c7e2ecac0d84900cd61acf7ff22aa25487abb",
+      "size_bytes": 2033390
+    },
+    "literature/Ref 15 - 2024 4 Potential disinfection byproducts-related risks to drinking water(1).pdf": {
+      "sha256": "47dde5f1a6d37356907bdf483f94eacaa6f74d4e32941282e307666569297818",
+      "size_bytes": 3566787
+    },
+    "literature/Ref 16 - 2023 858 UV aging of microplastic polymers promotes(1).pdf": {
+      "sha256": "fc87c9024eaf6b30b2b913f93fd6e083ae9606a982782db9a19113743a8da50f",
+      "size_bytes": 1326585
+    },
+    "literature/Ref 17 - 2023 327 Physicochemical changes in microplastics(1).pdf": {
+      "sha256": "f328fc9d5c593430da333da29c3d409e5067b79ac8c343d330fe74d6c34e86a0",
+      "size_bytes": 1465093
+    },
+    "literature/Ref 18 - 2023 237 Effects of UV-based oxidation processes on the degradation of microplastic(2).pdf": {
+      "sha256": "9db52a5083d7a50bc81a5de193d34d261541648e52e2bdbc16da28a31b805229",
+      "size_bytes": 3798986
+    },
+    "literature/Ref 19 - 2022 303 The effects of polypropylene microplastics on the DBP formation(1).pdf": {
+      "sha256": "a25e67e7e300b786dd539ee0d3491e5d56132c5c712f3e91474703e91f1bd19a",
+      "size_bytes": 1717594
+    },
+    "literature/Ref 2 - 2025 13 Effects of UV-based oxidation process on the degradation of ethylene propylene(1).pdf": {
+      "sha256": "145f4083044c4307271190fe7f76542b67a7e0a6009e3051c4ef323ec923b71f",
+      "size_bytes": 1754930
+    },
+    "literature/Ref 20 - 2022 303 Plasma-mediated aging process of different microplastics(1).pdf": {
+      "sha256": "7a38fe6b6e354e991e00ae7405bd7f97533d6f98249030f79c6a6bedcb5cf6f9",
+      "size_bytes": 6276045
+    },
+    "literature/Ref 21 - 2022 299 Leaching of organic matters and formation of disinfection by-product(1).pdf": {
+      "sha256": "4b95d97588611ace495de8c38fd4171260e25778edbc589d2ad4891aa454d944",
+      "size_bytes": 8718199
+    },
+    "literature/Ref 22 - 2022 296 Effects of microplastics on DBPs formation(1).pdf": {
+      "sha256": "09ad36de4edf6aac210bdc542d78f6312a122fd2d28849492dee9c44bcfdf784",
+      "size_bytes": 2067792
+    },
+    "literature/Ref 23 - 2020 251 Microplastics release precursors of chlorinated and brominated disinfection byproducts in water(4).pdf": {
+      "sha256": "8fe16ba3dfc0ed70ab4e0358451b5b46c16b159ead6668f4b8e91c5bec77f944",
+      "size_bytes": 886195
+    },
+    "literature/Ref 24 - 2023 234 Study of the Effect of Microplastics on the Generation(1).pdf": {
+      "sha256": "9b29866ecb97b4e1871d6257734df1dec188d75c4a6052ef170c1e4d7723d11f",
+      "size_bytes": 971474
+    },
+    "literature/Ref 25 - 2024 462 Mechanistic insight into the role of typical microplastics(1).pdf": {
+      "sha256": "003f396e1b56b9f7044dbd07a168f49c92b32fe4fe83e758446456fd9c187556",
+      "size_bytes": 6859854
+    },
+    "literature/Ref 3 - 2025 13 Effect of pre-oxidation on the release of brominated DBP precursors(1).pdf": {
+      "sha256": "abecf99ba784735d5d9ff8616556454fea718ff58d55a44c5487fc46528e8da7",
+      "size_bytes": 6668300
+    },
+    "literature/Ref 4 - 2025 3 Unveiling the mammalian cell cytotoxicity of tyre-impacted water in disinfection(1).pdf": {
+      "sha256": "b5011d86f8552383256068168a75a9ee83617e6ed591b9fbdd174f5e904d4ef1",
+      "size_bytes": 1673387
+    },
+    "literature/Ref 5 - 2025 15 Formation of disinfection by-products due to the leaching(2).pdf": {
+      "sha256": "714e400a8e6f7f299093ea05c93718c7626d676c6a2579aab7683d640d684bf0",
+      "size_bytes": 1023081
+    },
+    "literature/Ref 6 - 2024 906 Leaching of organic matter from microplastics and its role in disinfection by-product formation(1).pdf": {
+      "sha256": "b88e6b7de5232fb8b6179278e96fd83c2e73b73903026752c4f03d7a8fd3eaa2",
+      "size_bytes": 4590405
+    },
+    "literature/Ref 7 - 2024 472 Insight into the effect of UVC-based advanced oxidation processes(1).pdf": {
+      "sha256": "70425040c00427e5f05aa8c79f0317002134656f88b31d5e0297007ac13a1c82",
+      "size_bytes": 7535885
+    },
+    "literature/Ref 8 - 2024 464 Aging of polystyrene microplastics by UVSodium percarbonate oxidation(1).pdf": {
+      "sha256": "fb206b47419a051440ce9890b6403f3ee72fd1e30e836cc05ef21640edfc445c",
+      "size_bytes": 5070008
+    },
+    "literature/Ref 9 - 2024 363 Effects of UV light on physicochemical changes in thermoplastic polyurethanes(1).pdf": {
+      "sha256": "97f8b40f29722d18e1efe7da3484578fbd770d984a047f4b9a24a41a0675395d",
+      "size_bytes": 2902982
+    },
+    "make_figure2a.py": {
+      "sha256": "b2357338bc97213468ef9390c9daf11ea8e6a6eea4cc870ba827e4c151611cb4",
+      "size_bytes": 5611
+    },
+    "models/README.md": {
+      "sha256": "b33153912d8167174720606c55c0c3028d45a6bd1511b998446d04e64e0b6602",
+      "size_bytes": 2899
+    },
+    "models/S1_CatBoost_cv_fold1.joblib": {
+      "sha256": "2abccf4f940d8558662cb2be2919857951a864328745b82d64ca1f53cc8d63f6",
+      "size_bytes": 168673
+    },
+    "models/S1_CatBoost_cv_fold2.joblib": {
+      "sha256": "78680867521c47623abb664ddc2e82eeed66ce93bd7dc6fcc207f5e9b5f3f991",
+      "size_bytes": 183512
+    },
+    "models/S1_CatBoost_cv_fold3.joblib": {
+      "sha256": "eef8d6046710d3adf85443bed3f9658a6258072bb7b3ff1c7cd5a70950222d41",
+      "size_bytes": 169179
+    },
+    "models/S1_CatBoost_cv_fold4.joblib": {
+      "sha256": "70df90c7d793fa3ac83e700f3acef657d3629fdf8e9252ed6e57f62aa47a9894",
+      "size_bytes": 176643
+    },
+    "models/S1_CatBoost_cv_fold5.joblib": {
+      "sha256": "7a54444db3639997c125006aad56e45edc97ba8756d5626bf8c1a49e05451e93",
+      "size_bytes": 181508
+    },
+    "models/S1_CatBoost_full_training.joblib": {
+      "sha256": "1cb297024f8fe1329749b9fd5449edcf344974cc345574dfd2f1f72c50a1671c",
+      "size_bytes": 185243
+    },
+    "models/S1_Elastic_Net_cv_fold1.joblib": {
+      "sha256": "0bd59957d6b66fe8c6d8998471212365b6d8de307fc207dac8f9342ec1e637a0",
+      "size_bytes": 5050
+    },
+    "models/S1_Elastic_Net_cv_fold2.joblib": {
+      "sha256": "12f3e040bf836888b80aa6b8503f39ff5db3128c620eec8dca7897edb3dab5f7",
+      "size_bytes": 5049
+    },
+    "models/S1_Elastic_Net_cv_fold3.joblib": {
+      "sha256": "668dc2512a0a8931e1c8c001e30492b5d9fee5a7a3937e146c34e8d297dfa8fb",
+      "size_bytes": 5061
+    },
+    "models/S1_Elastic_Net_cv_fold4.joblib": {
+      "sha256": "fffcdc7c1c73ec7cea8bf3c0a054734ec09f106b2ba99a4af40af99a773cd593",
+      "size_bytes": 5051
+    },
+    "models/S1_Elastic_Net_cv_fold5.joblib": {
+      "sha256": "60e90c6d0eacb1be7420ef68804f1c7b20629a85908582fb374155b6181f8bbc",
+      "size_bytes": 5043
+    },
+    "models/S1_Elastic_Net_full_training.joblib": {
+      "sha256": "72ad53a8feda48caf36a748464fba8aa853a2561aa5b12b6d393a46fa59c2d66",
+      "size_bytes": 5034
+    },
+    "models/S1_LightGBM_cv_fold1.joblib": {
+      "sha256": "e6b6e4a1d7031a52adac567a83be96d8badb78a573584555198b113297c4c56a",
+      "size_bytes": 288293
+    },
+    "models/S1_LightGBM_cv_fold2.joblib": {
+      "sha256": "23bf02182bcfd93d9126f2c049dd2bd2acdabe0d3a6ecf97fe92a10800574297",
+      "size_bytes": 287559
+    },
+    "models/S1_LightGBM_cv_fold3.joblib": {
+      "sha256": "b08b614a69bedbb2ae45dd351b52f9936e3916bc08c6b38d792025ff4e79bbd3",
+      "size_bytes": 295150
+    },
+    "models/S1_LightGBM_cv_fold4.joblib": {
+      "sha256": "71584f9f13347593df3d78c550474ad305f63437c6118d4002571cae68d5349e",
+      "size_bytes": 288435
+    },
+    "models/S1_LightGBM_cv_fold5.joblib": {
+      "sha256": "da4f1616073c6a9c0412172f3fb0935d27e1f62e1f590312fd4c0dd97aa51850",
+      "size_bytes": 290973
+    },
+    "models/S1_LightGBM_full_training.joblib": {
+      "sha256": "a2f7e4ce7ca7f39ac9683286f2f968abb1dadfb9308d8fc75d68efd70be19800",
+      "size_bytes": 303632
+    },
+    "models/S1_Random_Forest_cv_fold1.joblib": {
+      "sha256": "bd4a744e1b1984cccb76c9950eedb82185400e279637d4f0560d0e2e9a2a6b43",
+      "size_bytes": 2006056
+    },
+    "models/S1_Random_Forest_cv_fold2.joblib": {
+      "sha256": "5c033dd894c66c0f607e1376bed6d124a864153ecb8b7c029169e9220cede3df",
+      "size_bytes": 2002159
+    },
+    "models/S1_Random_Forest_cv_fold3.joblib": {
+      "sha256": "6221153dd872ad1e1be9eb4a344d31289ce2cd1378156a5fbfb4e5cddccc5ca9",
+      "size_bytes": 2005460
+    },
+    "models/S1_Random_Forest_cv_fold4.joblib": {
+      "sha256": "26afefda4f14d8e3c4e414f457b228339fce7f8c6f686558ce81b7d425d8b02a",
+      "size_bytes": 2007603
+    },
+    "models/S1_Random_Forest_cv_fold5.joblib": {
+      "sha256": "b3cd100f5cce977decd35a0c41cfcc3d0b3659bdf0b411c1c559b32d9c429bd4",
+      "size_bytes": 2007016
+    },
+    "models/S1_Random_Forest_full_training.joblib": {
+      "sha256": "9986d3bc08919e972aa67ac49e57f749745ef173079f2addb40aa77c28b87ae6",
+      "size_bytes": 2487876
+    },
+    "models/S1_SVR-RBF_cv_fold1.joblib": {
+      "sha256": "caefc91258a348776a468317af617174e8d3012f3a43e9ee01205362b050031f",
+      "size_bytes": 25733
+    },
+    "models/S1_SVR-RBF_cv_fold2.joblib": {
+      "sha256": "5e0cb9ebdd4934c83cf41c4ab8aab36b09c66f202b7132f29b1713d13912bea5",
+      "size_bytes": 25918
+    },
+    "models/S1_SVR-RBF_cv_fold3.joblib": {
+      "sha256": "676f889b069af930a2c4983f5728471f68fc85cbbf22a425348764783027b837",
+      "size_bytes": 26016
+    },
+    "models/S1_SVR-RBF_cv_fold4.joblib": {
+      "sha256": "908de6dd48a8d098f7f6e637edf63eaed75b0f4f7d41c5e4ca244bfd1b876233",
+      "size_bytes": 25377
+    },
+    "models/S1_SVR-RBF_cv_fold5.joblib": {
+      "sha256": "d2d6311af6a1bd755de9f7c9dd5dbfbf5113f0cb70f0fb5f94733e20313bdc57",
+      "size_bytes": 25848
+    },
+    "models/S1_SVR-RBF_full_training.joblib": {
+      "sha256": "c592cdc44b398fb2df31c78946da663316d153b0e706ebdc095500629dd3ec40",
+      "size_bytes": 28809
+    },
+    "models/S1_XGBoost_cv_fold1.joblib": {
+      "sha256": "02537fdde4448acf243c3b4e15e71f1eac483f084a213f4af8f52300e24c3aa7",
+      "size_bytes": 454267
+    },
+    "models/S1_XGBoost_cv_fold2.joblib": {
+      "sha256": "6e971bce8f935a26871ad00f774c0a444019a6c03dd9ad200fd07629857ced34",
+      "size_bytes": 461031
+    },
+    "models/S1_XGBoost_cv_fold3.joblib": {
+      "sha256": "fba35c14d559fdefef6c78ceb30915747b3950eac8a295735770fee805eceb43",
+      "size_bytes": 468867
+    },
+    "models/S1_XGBoost_cv_fold4.joblib": {
+      "sha256": "a86007629332cd5e2fe82c11eda012aa8fdea9e9c538588c86bd6e05ef483803",
+      "size_bytes": 460505
+    },
+    "models/S1_XGBoost_cv_fold5.joblib": {
+      "sha256": "4b602624aa6c081e093d02f8dcc70b84777ef0474c0fb706cc23a082190d7a69",
+      "size_bytes": 458508
+    },
+    "models/S1_XGBoost_full_training.joblib": {
+      "sha256": "9e8dd248a07f07720bea642fe619b26580a65679f85361c43d5165edba3413e2",
+      "size_bytes": 473059
+    },
+    "models/S2_CatBoost_cv_fold1.joblib": {
+      "sha256": "8aaedb9b2da1c69db8d1259531a327d465da18fa06585c20363fcda837ae107f",
+      "size_bytes": 168227
+    },
+    "models/S2_CatBoost_cv_fold2.joblib": {
+      "sha256": "9ae8fc313d95210d616cfc15b92a5b85d9c5d94efbe6a6b4eb80e1288aac29cc",
+      "size_bytes": 165732
+    },
+    "models/S2_CatBoost_cv_fold3.joblib": {
+      "sha256": "5db4ef23558c14108673c7d6537814b16c0f63321b60c0756e04e4ae1b851396",
+      "size_bytes": 176870
+    },
+    "models/S2_CatBoost_cv_fold4.joblib": {
+      "sha256": "61895c64a3f0b710a19574552bd085d6819de7d68bfd1daa7351358505424d80",
+      "size_bytes": 172831
+    },
+    "models/S2_CatBoost_cv_fold5.joblib": {
+      "sha256": "ba3372c9679753479158e6e00665068e1465dad5f8ade7c3c6b6d7b402bb3556",
+      "size_bytes": 174559
+    },
+    "models/S2_CatBoost_full_training.joblib": {
+      "sha256": "c7649d45eb8ba3f58300fb43de51c871b1fe9847388d64f0b96d2bdaccc2dab3",
+      "size_bytes": 175765
+    },
+    "models/S2_Elastic_Net_cv_fold1.joblib": {
+      "sha256": "7f63a77860ea83daa2dab5b9045a51c0b619d1e6589deea108dabd20eb584986",
+      "size_bytes": 6644
+    },
+    "models/S2_Elastic_Net_cv_fold2.joblib": {
+      "sha256": "6920275d69229af905139ff75c9edba2cf78dd29af97e9169b10cb439d503dd7",
+      "size_bytes": 6609
+    },
+    "models/S2_Elastic_Net_cv_fold3.joblib": {
+      "sha256": "3bf24981a1c56d8ddc87f40a20ed9705efdef548f8d657a44c2c11139b0f97ed",
+      "size_bytes": 6635
+    },
+    "models/S2_Elastic_Net_cv_fold4.joblib": {
+      "sha256": "c3313f89c1623dfaa7b6a829f67cf2092b20f74f779e84f2f6e11f375ab2c9c5",
+      "size_bytes": 6634
+    },
+    "models/S2_Elastic_Net_cv_fold5.joblib": {
+      "sha256": "463da123fc43067196ae1c58e1219ac77ea5fbcc126deb484de020ece39a2985",
+      "size_bytes": 6606
+    },
+    "models/S2_Elastic_Net_full_training.joblib": {
+      "sha256": "7309355a990e2c7323638d303775a7a0f1f63fd710b5be6154749f134a697fc0",
+      "size_bytes": 6612
+    },
+    "models/S2_LightGBM_cv_fold1.joblib": {
+      "sha256": "96bb92cae4ef0e26a0e80177ac1b041a06eb9a6352cdaace7e75dcd608ba4222",
+      "size_bytes": 357797
+    },
+    "models/S2_LightGBM_cv_fold2.joblib": {
+      "sha256": "ca87d8da4b51e6f22d34973ae5b5745e16f24fe2a92821247cc87670ab347b3b",
+      "size_bytes": 373597
+    },
+    "models/S2_LightGBM_cv_fold3.joblib": {
+      "sha256": "70bd4531b1328dbef7c4fc60d1722622c589fded2c906883c65aee42d75663c2",
+      "size_bytes": 366942
+    },
+    "models/S2_LightGBM_cv_fold4.joblib": {
+      "sha256": "46b83c245a9df14abbfae8f6b8535bfe49d1fec8d084818f6343f46b4df1db07",
+      "size_bytes": 359091
+    },
+    "models/S2_LightGBM_cv_fold5.joblib": {
+      "sha256": "6b965f51280482ff4e33d30cfcdc804c0a2843bbcde710f635961f0454cf645a",
+      "size_bytes": 380051
+    },
+    "models/S2_LightGBM_full_training.joblib": {
+      "sha256": "b034da4ee9ffea5ecbacc9461ce1bf436093125fd0b4219e71de4c3351dd4421",
+      "size_bytes": 397250
+    },
+    "models/S2_Random_Forest_cv_fold1.joblib": {
+      "sha256": "d45cf60e6db226bd3301792896ab29c82e13a665eb2f665d1838b91069331bb6",
+      "size_bytes": 4071303
+    },
+    "models/S2_Random_Forest_cv_fold2.joblib": {
+      "sha256": "3abce7f0c53ad6f7e48458844055ce75b6fd8c1a6042355f38622776d40ef8be",
+      "size_bytes": 4070814
+    },
+    "models/S2_Random_Forest_cv_fold3.joblib": {
+      "sha256": "dfc80cfd42b19976bce9c788e408b86ec1d8758dfad2eba3f02b8222cdd1d97e",
+      "size_bytes": 4066370
+    },
+    "models/S2_Random_Forest_cv_fold4.joblib": {
+      "sha256": "b1ecc4563a0ed916a9ab6f7d41510f52cef18fc3fe89128924138f3800de0a7e",
+      "size_bytes": 4077361
+    },
+    "models/S2_Random_Forest_cv_fold5.joblib": {
+      "sha256": "890161b37c679bb7f595521931382b70fcd62dbce8c28d689ebabd2ea0880599",
+      "size_bytes": 4076671
+    },
+    "models/S2_Random_Forest_full_training.joblib": {
+      "sha256": "1a72dbfd95362d128cbe5be8ef650115fe4150dcb86e97f8b35c6492d751dc9d",
+      "size_bytes": 5041042
+    },
+    "models/S2_SVR-RBF_cv_fold1.joblib": {
+      "sha256": "780bc119e242a8db47949477f48985c74815f09fe384c67983cdd75f5d2382d3",
+      "size_bytes": 47846
+    },
+    "models/S2_SVR-RBF_cv_fold2.joblib": {
+      "sha256": "011b40975f2e977d80ca79aaf90812c736dbc7d0e6a58a300b925a515511e3cb",
+      "size_bytes": 46212
+    },
+    "models/S2_SVR-RBF_cv_fold3.joblib": {
+      "sha256": "dd9aa46ab4ca95c1a698d9077db7b62b8590a512861182ea7653c6e846ba405f",
+      "size_bytes": 47053
+    },
+    "models/S2_SVR-RBF_cv_fold4.joblib": {
+      "sha256": "23ab425e0da08b48753e9585804d3c8ec81231f86a27700ab03b1fdde13b8485",
+      "size_bytes": 46411
+    },
+    "models/S2_SVR-RBF_cv_fold5.joblib": {
+      "sha256": "5a62906af4d53f878596b13b97813f89bec95b05ab2b3925eec8353497be007b",
+      "size_bytes": 46144
+    },
+    "models/S2_SVR-RBF_full_training.joblib": {
+      "sha256": "5bfe6c1b196d787d6b7ae80c1b6babb0e3e11b00cdd6d1d18fa9e887a3cf1d1c",
+      "size_bytes": 53636
+    },
+    "models/S2_XGBoost_cv_fold1.joblib": {
+      "sha256": "45a91847f55ae6404912492660db4be651cb5923ccddf6186a847bd401f081db",
+      "size_bytes": 556944
+    },
+    "models/S2_XGBoost_cv_fold2.joblib": {
+      "sha256": "ec42b828be3b404f1444a2e9d6d532c274167e73414fd41100e1c53ee3a9d2fb",
+      "size_bytes": 566960
+    },
+    "models/S2_XGBoost_cv_fold3.joblib": {
+      "sha256": "2bce6ce48450693777c6438d80e51ebf81a406ea9982147586e4bf39cc1d47d5",
+      "size_bytes": 563964
+    },
+    "models/S2_XGBoost_cv_fold4.joblib": {
+      "sha256": "d8b2f9f8f7e26f9f6aaf96dfdbd65739035524640e7160ee550a4568258d9258",
+      "size_bytes": 561108
+    },
+    "models/S2_XGBoost_cv_fold5.joblib": {
+      "sha256": "31dcf4adbac096f848e291edc440dd4171ef529a444193595d4ab0297d79d1da",
+      "size_bytes": 554649
+    },
+    "models/S2_XGBoost_full_training.joblib": {
+      "sha256": "3d0ab68c7fc37e2c93b8dabc846a86fbf66b231efd58257a0f2c03448b78ef5b",
+      "size_bytes": 589563
+    },
+    "models/S3_CatBoost_cv_fold1.joblib": {
+      "sha256": "d63e91ddd2c06b46c97892735438c2b3abb06de6f386a51b95224bcc5980800c",
+      "size_bytes": 171498
+    },
+    "models/S3_CatBoost_cv_fold2.joblib": {
+      "sha256": "e7ab4084c81765a02a2ad41ec453c675eab48b80089d867833cba75d66ef81fa",
+      "size_bytes": 169721
+    },
+    "models/S3_CatBoost_cv_fold3.joblib": {
+      "sha256": "4ded9f12a83fca88ad832ff60e0a3b3e7d081a9a4661e2964c0ecadd29d61338",
+      "size_bytes": 179950
+    },
+    "models/S3_CatBoost_cv_fold4.joblib": {
+      "sha256": "38a4c4604a30d9350a805ceb0ae942046f885e073adba29f0e8e2a094ad462d7",
+      "size_bytes": 177867
+    },
+    "models/S3_CatBoost_cv_fold5.joblib": {
+      "sha256": "ce20ea405c9b47910f479ddcd588d1fcd45ffeb3b9dcbe12e1d80dbd586da567",
+      "size_bytes": 165112
+    },
+    "models/S3_CatBoost_full_training.joblib": {
+      "sha256": "6f9504989fe4eb2a3a0f1bd4dbb7fa9bef4ba20b96ad8ad259e8c88a5b2b9b69",
+      "size_bytes": 182720
+    },
+    "models/S3_Elastic_Net_cv_fold1.joblib": {
+      "sha256": "32c16b3f263dca837501f5170157fb4ca53d814b7145693b11e1e0e7ea6983b0",
+      "size_bytes": 5256
+    },
+    "models/S3_Elastic_Net_cv_fold2.joblib": {
+      "sha256": "f362b88db6eacc3a5454df0cfc9117b1af729f48a3f9ccdc7953cf23bf33a73c",
+      "size_bytes": 5245
+    },
+    "models/S3_Elastic_Net_cv_fold3.joblib": {
+      "sha256": "46ec5c72fdea861b3feb03b71ffa2cd44650a615c8aa7809bf8ae1c40e2ba540",
+      "size_bytes": 5272
+    },
+    "models/S3_Elastic_Net_cv_fold4.joblib": {
+      "sha256": "964d2b4d469349e5610889ea232bab89f8267fd1658d6a5663abff01eeb7e3f2",
+      "size_bytes": 5249
+    },
+    "models/S3_Elastic_Net_cv_fold5.joblib": {
+      "sha256": "100fdaa61deca3f60334b18248c6caed15d5347e0604a009fcb377a9768f40ac",
+      "size_bytes": 5235
+    },
+    "models/S3_Elastic_Net_full_training.joblib": {
+      "sha256": "46a29158d1d41d38a9c9184404620a8dfbbbab9afb5492205b6404b90611be0f",
+      "size_bytes": 5223
+    },
+    "models/S3_LightGBM_cv_fold1.joblib": {
+      "sha256": "a3d48a41550270b410fdbb9b8dc29d2bafddbbfd10b1c7e68528775e40618244",
+      "size_bytes": 363782
+    },
+    "models/S3_LightGBM_cv_fold2.joblib": {
+      "sha256": "bab8a668d2eb42eb65660ff47f177701705b852919f107a62a6487ba30fac6cb",
+      "size_bytes": 373984
+    },
+    "models/S3_LightGBM_cv_fold3.joblib": {
+      "sha256": "f38aec34afae1405857842f99d69b9ebf270b46d60cffabb460e443306ca0f8d",
+      "size_bytes": 366182
+    },
+    "models/S3_LightGBM_cv_fold4.joblib": {
+      "sha256": "d050dbf491adefe3dd2d355a225e03bfc1f4e0858b5a4c77ac3d651a6110d77f",
+      "size_bytes": 358117
+    },
+    "models/S3_LightGBM_cv_fold5.joblib": {
+      "sha256": "d3fc95071972dec33506d1c68e41bdc3e93f8d99cfba5df95f503ac147aefa28",
+      "size_bytes": 378822
+    },
+    "models/S3_LightGBM_full_training.joblib": {
+      "sha256": "d89aa7c073f7059fd97e1e5a87e24ba3514f91de8b72b69339cc3e51367a60c5",
+      "size_bytes": 399858
+    },
+    "models/S3_Random_Forest_cv_fold1.joblib": {
+      "sha256": "6319baff6eaee04317620896cd8dcefb6f727fe45846ecaebaaf3e1fb318d1a6",
+      "size_bytes": 3756811
+    },
+    "models/S3_Random_Forest_cv_fold2.joblib": {
+      "sha256": "146bdc224451d617647d1737ea7b7c21225244a41978f8253143413a6440f8c8",
+      "size_bytes": 3769266
+    },
+    "models/S3_Random_Forest_cv_fold3.joblib": {
+      "sha256": "c1d0d40fbd97c0250b23f6d32eed6ae208ecc57bb12f5e803863ea4f1869973e",
+      "size_bytes": 3774481
+    },
+    "models/S3_Random_Forest_cv_fold4.joblib": {
+      "sha256": "bca84556bb1eb68f891031bda20536ca769b20b948c2ff9a6995d38720c6324e",
+      "size_bytes": 3758117
+    },
+    "models/S3_Random_Forest_cv_fold5.joblib": {
+      "sha256": "a89f4c2027782c43d7a87b75ae15b7d2c9feafc3ba5fb9e8d7774e81086e1494",
+      "size_bytes": 3787119
+    },
+    "models/S3_Random_Forest_full_training.joblib": {
+      "sha256": "5c2a86b5ce5f58c35489d491858d64124a54885cc227b9d09bf761084c153bd3",
+      "size_bytes": 4603091
+    },
+    "models/S3_SVR-RBF_cv_fold1.joblib": {
+      "sha256": "b85908b1c49b7a978ff8363dfeb24dc37b71adb06b8d2d83089094fcece2f14b",
+      "size_bytes": 47846
+    },
+    "models/S3_SVR-RBF_cv_fold2.joblib": {
+      "sha256": "4480fc26491501fe54b0742377dfd3e809dfca8eacf27d6509b968bc92a0c27a",
+      "size_bytes": 46214
+    },
+    "models/S3_SVR-RBF_cv_fold3.joblib": {
+      "sha256": "238659b64b1c8e794c5f7bedcf4ead882461a85455127bf6d832741775e58d48",
+      "size_bytes": 47052
+    },
+    "models/S3_SVR-RBF_cv_fold4.joblib": {
+      "sha256": "d775f5aa31358a37ad4e682cc3d255f57b3f3dcf757fa2fdc971a5253b0bb602",
+      "size_bytes": 46411
+    },
+    "models/S3_SVR-RBF_cv_fold5.joblib": {
+      "sha256": "6e025f31ec1ca0648662a608c6449a5c844bf3d342977b6f23ef30d0cb784cee",
+      "size_bytes": 46144
+    },
+    "models/S3_SVR-RBF_full_training.joblib": {
+      "sha256": "a023f23653198ac2e942bcb4b91a153ebbfdaf5f7fa7882b363d439886518956",
+      "size_bytes": 53635
+    },
+    "models/S3_XGBoost_cv_fold1.joblib": {
+      "sha256": "83a2a540542e7e1ad0301906693b71949698defd90e845015d2e7d33d6609a39",
+      "size_bytes": 555187
+    },
+    "models/S3_XGBoost_cv_fold2.joblib": {
+      "sha256": "4442c33117fbf212bce36e07cf962e15a67ce5524a072b42380222c08ac24fa7",
+      "size_bytes": 570352
+    },
+    "models/S3_XGBoost_cv_fold3.joblib": {
+      "sha256": "5510d7996cd8562befc61072f2d9609fd17d23e57d2fd2a52af268c41fbab166",
+      "size_bytes": 566495
+    },
+    "models/S3_XGBoost_cv_fold4.joblib": {
+      "sha256": "097759758c519c8109bfa475337fc2c521af626b6028bb2d7af0048267a93255",
+      "size_bytes": 561932
+    },
+    "models/S3_XGBoost_cv_fold5.joblib": {
+      "sha256": "cf734461b245740ebcc7d460d41d7636d45065b2863b96f5a55411080ebf03de",
+      "size_bytes": 556243
+    },
+    "models/S3_XGBoost_full_training.joblib": {
+      "sha256": "3b9501ace9b7fe92170225f61b34e835d6f8e0ed9d86423c1e1e227cadda1835",
+      "size_bytes": 590114
+    },
+    "models/validation_report.json": {
+      "sha256": "a84989368fc1cff6cbae2c3956af0a3bb2d60b765e7bf910a12bf658c41fd62c",
+      "size_bytes": 14317
+    },
+    "predict_saved_model.py": {
+      "sha256": "f72cd6067da246529ae6334f0f35723a4b953565e5ee0d9d0723024031120118",
+      "size_bytes": 1467
+    },
+    "reproduce_line1.py": {
+      "sha256": "f61bf09bf803d72ede01920ef26c0ef4d7fa54bf1c12b2d191d1d38bc7a8c19e",
+      "size_bytes": 9143
+    },
+    "requirements.txt": {
+      "sha256": "cf2047ab96601671cd9bd60f9313f1ae562b66fd83c6622f7051bc1f5f296273",
+      "size_bytes": 349
+    },
+    "results/Figure2a_Line1_Model_Reproduction_Audit.xlsx": {
+      "sha256": "be0486da519a216af00b5ede7c3b6eb658f99352a8fd441c8422202ff7157892",
+      "size_bytes": 17725
+    },
+    "results/line1_S1_CatBoost.json": {
+      "sha256": "98aea00a06df5d7cb5e75806be8c5598f873b8a72c09cb9596dbc5914e74eb9c",
+      "size_bytes": 1835
+    },
+    "results/line1_S1_CatBoost_preds.npz": {
+      "sha256": "5bf5db0cc942ed62ac2c1e751c5945c0cea5ed77c3ac92fcab070f6ea2a88088",
+      "size_bytes": 19900
+    },
+    "results/line1_S1_Elastic_Net.json": {
+      "sha256": "9fe8c3381a48d4ddb5b88a70882f37696c6aa9d51e99b956ddb536e4709348e9",
+      "size_bytes": 1649
+    },
+    "results/line1_S1_Elastic_Net_preds.npz": {
+      "sha256": "3316d0c543d0ba9c0f191e3a83fc2e0494434a015069cb7fd9e76e0440bea6a0",
+      "size_bytes": 19939
+    },
+    "results/line1_S1_LightGBM.json": {
+      "sha256": "6ab18cc73e2a945db84afce1d1b4ac9353bd7682d97236892fb3328238b20ddc",
+      "size_bytes": 1878
+    },
+    "results/line1_S1_LightGBM_preds.npz": {
+      "sha256": "94397dcd9f12bb96f13b046b4415c488456dfa6ef9f87ce2e9459ad301352bfe",
+      "size_bytes": 19656
+    },
+    "results/line1_S1_Random_Forest.json": {
+      "sha256": "3b2150231d807b73a28bcc4c5deeccc76313325e4d54e82f0b0c8affce9a7c43",
+      "size_bytes": 1585
+    },
+    "results/line1_S1_Random_Forest_preds.npz": {
+      "sha256": "2abfd7b87f7f396b883e7ae0b8578958a10858cb7b51158db81ee0c90938e31c",
+      "size_bytes": 19905
+    },
+    "results/line1_S1_SVR-RBF.json": {
+      "sha256": "6c0c60e38c61b7d03b65fd271b39c86a364dfc592e29c6006a1274431888008c",
+      "size_bytes": 1679
+    },
+    "results/line1_S1_SVR-RBF_preds.npz": {
+      "sha256": "17877be5d190b715e7080c4411aeb0d747d2cf8bc5371f31e78a3253d2e2cd50",
+      "size_bytes": 19946
+    },
+    "results/line1_S1_XGBoost.json": {
+      "sha256": "5e224865d5d6d7aa0aac5f7001d8eac6edc2dd5f6b25df4b4fccce2d9d163586",
+      "size_bytes": 1904
+    },
+    "results/line1_S1_XGBoost_preds.npz": {
+      "sha256": "134d397f32c31a6abe8aefd0c804630b60d10b974d933c3ecb738b1e3350081f",
+      "size_bytes": 15701
+    },
+    "results/line1_S2_CatBoost.json": {
+      "sha256": "47549402f1ad0f42e35f0819dc5015caa63f882d598897825bc477332309cf30",
+      "size_bytes": 2550
+    },
+    "results/line1_S2_CatBoost_preds.npz": {
+      "sha256": "783a210b88dbc97a697610ee578df3125023876164340900fd2e174ddea3e729",
+      "size_bytes": 19898
+    },
+    "results/line1_S2_Elastic_Net.json": {
+      "sha256": "79ae528eb056a4ba0e3cb9f4472775d5c6b8b3bdf1eb5ba793d35e541423a452",
+      "size_bytes": 2360
+    },
+    "results/line1_S2_Elastic_Net_preds.npz": {
+      "sha256": "3dd8b74b6de02064a2b478c7e752d1e4e1ea4f4803aca9bcddbecf0756ae6179",
+      "size_bytes": 19941
+    },
+    "results/line1_S2_LightGBM.json": {
+      "sha256": "884bcde1d77131e34e20026f9fd4e54e107b23d01be64b5d789e49f69d2399dc",
+      "size_bytes": 2586
+    },
+    "results/line1_S2_LightGBM_preds.npz": {
+      "sha256": "817ce5a63f68e88907828fef5adedb463e42d2ebbe13c7fc4a8bc37b9f773b8d",
+      "size_bytes": 19899
+    },
+    "results/line1_S2_Random_Forest.json": {
+      "sha256": "80d5480c4251337053f8565909784cbab6dd7709e68f993f21413806d107af8e",
+      "size_bytes": 2445
+    },
+    "results/line1_S2_Random_Forest_preds.npz": {
+      "sha256": "7c6dba8ef993ad739c5ad5b41b636ea052a27af546223ad8263d1b9376b62ac7",
+      "size_bytes": 19919
+    },
+    "results/line1_S2_SVR-RBF.json": {
+      "sha256": "b69a6f13cf53d9bfb33631849d08450f572a1a67aae29ae7046bd52a518011f6",
+      "size_bytes": 2391
+    },
+    "results/line1_S2_SVR-RBF_preds.npz": {
+      "sha256": "3283e229a5e7ff79b75b5b1391be9df0b3fd2516c89cbc4d489fd56416e3b14f",
+      "size_bytes": 19934
+    },
+    "results/line1_S2_XGBoost.json": {
+      "sha256": "895f830345be2aa64bb2af299b1cca247743bd9c37e2fc7f640ff8d6257d962b",
+      "size_bytes": 2616
+    },
+    "results/line1_S2_XGBoost_preds.npz": {
+      "sha256": "9671f7c6e1645967f46e1edbc9dbe102705bdac5cdeffb7ab2c7114ad82198a7",
+      "size_bytes": 15710
+    },
+    "results/line1_S3_CatBoost.json": {
+      "sha256": "a6cfa9e97f601cce6f252e2847383285e66734ae1f0381b2879d2d6b40f16b48",
+      "size_bytes": 2400
+    },
+    "results/line1_S3_CatBoost_preds.npz": {
+      "sha256": "4777db14d7a8bcc8833dcea9d044bc2b4b965b8f7fdf3b1f0077151bacc1a9cc",
+      "size_bytes": 19900
+    },
+    "results/line1_S3_Elastic_Net.json": {
+      "sha256": "5b18c47b3a70ab4bf78a8471fb4ad1111a3ef1c03a8f1e6c8c2965617503fa71",
+      "size_bytes": 1696
+    },
+    "results/line1_S3_Elastic_Net_preds.npz": {
+      "sha256": "5a5fc172aac2d93449b36524947d3e46629376546186ce9e37d0fb78142d03ea",
+      "size_bytes": 19808
+    },
+    "results/line1_S3_LightGBM.json": {
+      "sha256": "26a6c2676267b34eec8880c031c29e52f66113c083e9734f002ef7d4beeb43f3",
+      "size_bytes": 2487
+    },
+    "results/line1_S3_LightGBM_preds.npz": {
+      "sha256": "b0dd7e2b675fa8034e0dd721d076c597b6dac3b7d2dc5c53e4ad0a9c62572bd5",
+      "size_bytes": 19917
+    },
+    "results/line1_S3_Random_Forest.json": {
+      "sha256": "f08516c09c856f50e6aeb3cfd8eb109b017c8d3e4ba35a2391ea3057125d3993",
+      "size_bytes": 1732
+    },
+    "results/line1_S3_Random_Forest_preds.npz": {
+      "sha256": "6ad6508d1102da828a4d1db21d1e313a8887a1c28d5ac0aa6261f058a51f71df",
+      "size_bytes": 19646
+    },
+    "results/line1_S3_SVR-RBF.json": {
+      "sha256": "b3b21abf388c4dbdd956fad388640c35755a731ae98b7607069a8c6c496ee704",
+      "size_bytes": 2391
+    },
+    "results/line1_S3_SVR-RBF_preds.npz": {
+      "sha256": "3283e229a5e7ff79b75b5b1391be9df0b3fd2516c89cbc4d489fd56416e3b14f",
+      "size_bytes": 19934
+    },
+    "results/line1_S3_XGBoost.json": {
+      "sha256": "0344ed11d4ae45e62fb119f373d8c2a7d631791e34f50fc122534737ad829656",
+      "size_bytes": 2457
+    },
+    "results/line1_S3_XGBoost_preds.npz": {
+      "sha256": "76ca1d0b188572f1b495ef54e263c5028a4b6a0cd596de1f689a5dd90a904415",
+      "size_bytes": 15710
+    },
+    "save_trained_models.py": {
+      "sha256": "46cbc773e07019514d53028eeae3401a930c9d4b73690cc869893aeb87e44ca3",
+      "size_bytes": 8668
+    },
+    "validate_saved_models.py": {
+      "sha256": "47a5d0ebb4062ac8af89d3987b9f24d48594bd4fa7f50fb7a371dd62d4a11ac2",
+      "size_bytes": 3541
+    },
+    "verify_checksums.py": {
+      "sha256": "44af473bf7993106d2711992996299692fd36cc10a37d4aed54c3555e1a64552",
+      "size_bytes": 693
+    }
+  },
+  "updated_date": "2026-10-27",
+  "trained_model_files": 108,
+  "full_training_model_files": 18,
+  "cv_fold_model_files": 90,
+  "model_serialization": "joblib 1.5.3 containing estimator + fitted preprocessing + feature order",
+  "model_serialization_provenance": "Regenerated frozen recipe on 2026-10-27; not recovered historical trained objects"
+}
